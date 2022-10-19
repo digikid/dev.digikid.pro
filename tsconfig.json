@@ -1,0 +1,79 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "useDefineForClassFields": true,
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "types": [
+      "@intlify/vite-plugin-vue-i18n/client"
+    ],
+    "baseUrl": "src",
+    "paths": {
+      "@src/*": [
+        "*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@data/*": [
+        "data/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
+      "@i18n/*": [
+        "i18n/*"
+      ],
+      "@layouts/*": [
+        "layouts/*"
+      ],
+      "@locales/*": [
+        "locales/*"
+      ],
+      "@metrika/*": [
+        "metrika/*"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@plugins/*": [
+        "plugins/*"
+      ],
+      "@router/*": [
+        "router/*"
+      ],
+      "@stores/*": [
+        "stores/*"
+      ],
+      "@typings/*": [
+        "typings/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
+  "references": [{
+    "path": "tsconfig.node.json"
+  }],
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  }
+}

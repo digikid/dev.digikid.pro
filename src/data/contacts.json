@@ -1,0 +1,61 @@
+[{
+  "id": "main",
+  "active": true,
+  "items": [{
+    "id": "email",
+    "active": true,
+    "title": "dev@digikid.ru",
+    "url": "mailto:dev@digikid.ru"
+  }, {
+    "id": "telegram",
+    "active": true,
+    "title": "Telegram",
+    "url": "https://t.me/digikid"
+  }]
+}, {
+  "id": "socials",
+  "active": true,
+  "items": [{
+    "id": "github",
+    "active": true,
+    "title": "GitHub",
+    "url": "https://github.com/digikid"
+  }, {
+    "id": "telegram",
+    "active": true,
+    "title": "Telegram",
+    "url": "https://t.me/digikid"
+  }, {
+    "id": "instagram",
+    "title": "Instagram",
+    "url": "https://instagram.com/sasha.dovlatov"
+  }]
+}, {
+  "id": "hr",
+  "active": true,
+  "items": [{
+    "id": "linkedin",
+    "active": true,
+    "title": "LinkedIn",
+    "url": "https://www.linkedin.com/in/digikid"
+  }, {
+    "id": "habr",
+    "active": true,
+    "title": "Habr",
+    "url": "https://career.habr.com/digikid"
+  }, {
+    "id": "hh",
+    "active": true,
+    "title": "HeadHunter",
+    "url": "https://hh.ru/resume/17b2f292ff0249ecf10039ed1f476d31784a55"
+  }]
+}, {
+  "id": "location",
+  "active": true,
+  "items": [{
+    "id": "current",
+    "active": true,
+    "title": "",
+    "url": ""
+  }]
+}]

@@ -1,0 +1,76 @@
+[{
+  "id": "main",
+  "active": true,
+  "date": 1338490800000,
+  "url": "https://samgtu.ru"
+}, {
+  "id": "udemy-pro-react-redux",
+  "active": true,
+  "date": 1559847600000,
+  "url": "https://www.udemy.com/course/pro-react-redux"
+}, {
+  "id": "udemy-react-complete-guide",
+  "active": true,
+  "date": 1584730800000,
+  "url": "https://www.udemy.com/course/react-2020-complete-guide"
+}, {
+  "id": "result-school-js-excel",
+  "active": true,
+  "date": 1595012400000,
+  "url": "https://vladilen.ru/excel"
+}, {
+  "id": "tocode-webpack-guide",
+  "active": true,
+  "date": 1598036400000,
+  "url": "https://youtube.com/playlist?list=PLkCrmfIT6LBQWN02hNj6r1daz7965GxsV"
+}, {
+  "id": "tocode-vue-2",
+  "active": true,
+  "date": 1601665200000,
+  "url": "https://tocode.ru/courses/vuejs-s-nylya-do-pro"
+}, {
+  "id": "result-school-vue",
+  "active": true,
+  "date": 1612638000000,
+  "url": "https://vladilen.ru/vue"
+}, {
+  "id": "js-ninja-vue-free",
+  "active": true,
+  "date": 1620759600000,
+  "url": "https://www.youtube.com/playlist?list=PLvTBThJr861yMBhpKafII3HZLAYujuNWw"
+}, {
+  "id": "tocode-vue-3",
+  "active": true,
+  "date": 1628535600000,
+  "url": "https://tocode.ru/courses/vuejs-3-s-nulya-do-rezultata"
+}, {
+  "id": "result-school-docker",
+  "active": true,
+  "date": 1637694000000,
+  "url": "https://vladilen.ru/docker"
+}, {
+  "id": "lavrik-vue-advanced",
+  "active": true,
+  "date": 1638730800000,
+  "url": "https://js.dmitrylavrik.ru/vue-advanced"
+}, {
+  "id": "js-ninja-vue-testing",
+  "active": true,
+  "date": 1642100400000,
+  "url": "https://javascript.ninja/workshops/vue-testing"
+}, {
+  "id": "udemy-typescript-bootcamp",
+  "active": true,
+  "date": 1645642800000,
+  "url": "https://www.udemy.com/course/typescript-bootcamp"
+}, {
+  "id": "udemy-typescript-full",
+  "active": true,
+  "date": 1645988400000,
+  "url": "https://www.udemy.com/course/typescript-full"
+}, {
+  "id": "vuemastery-typescript-friendly-vue3",
+  "active": true,
+  "date": 1654455600000,
+  "url": "https://www.vuemastery.com/courses/typescript-friendly-vue3"
+}]

@@ -1,0 +1,5 @@
+dist
+docs
+public
+index.html
+deploy.ts

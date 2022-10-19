@@ -1,0 +1,97 @@
+[{
+  "id": "js",
+  "active": true,
+  "title": "Vanilla JS"
+}, {
+  "id": "ts",
+  "active": true,
+  "title": "TypeScript"
+}, {
+  "id": "vue",
+  "active": true,
+  "title": "Vue.js"
+}, {
+  "id": "vue-cli",
+  "active": true,
+  "title": "Vue CLI"
+}, {
+  "id": "vite",
+  "active": true,
+  "title": "Vite"
+}, {
+  "id": "node",
+  "active": true,
+  "title": "Node.js"
+}, {
+  "id": "gulp",
+  "active": true,
+  "title": "Gulp"
+}, {
+  "id": "webpack",
+  "active": true,
+  "title": "Webpack"
+}, {
+  "id": "css",
+  "active": true,
+  "title": "CSS"
+}, {
+  "id": "sass",
+  "active": true,
+  "title": "SASS"
+}, {
+  "id": "postcss",
+  "active": true,
+  "title": "PostCSS"
+}, {
+  "id": "html",
+  "active": true,
+  "title": "HTML"
+}, {
+  "id": "tailwind",
+  "active": true,
+  "title": "Tailwind CSS"
+}, {
+  "id": "bootstrap",
+  "active": true,
+  "title": "Bootstrap"
+}, {
+  "id": "jquery",
+  "active": true,
+  "title": "jQuery"
+}, {
+  "id": "git",
+  "active": true,
+  "title": "Git"
+}, {
+  "id": "jest",
+  "active": true,
+  "title": "Jest"
+}, {
+  "id": "crm",
+  "active": true,
+  "title": "CRM"
+}, {
+  "id": "bitrix",
+  "active": true,
+  "title": "Bitrix"
+}, {
+  "id": "joomla",
+  "active": true,
+  "title": "Joomla"
+}, {
+  "id": "wordpress",
+  "active": true,
+  "title": "Wordpress"
+}, {
+  "id": "firebase",
+  "active": true,
+  "title": "Firebase"
+}, {
+  "id": "eslint",
+  "active": true,
+  "title": "ESLint"
+}, {
+  "id": "stylelint",
+  "active": true,
+  "title": "StyleLint"
+}]

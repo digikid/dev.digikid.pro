@@ -1,0 +1,64 @@
+{
+  "parser": "vue-eslint-parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-recommended",
+    "airbnb-base"
+  ],
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "ignorePatterns": [
+    "*.config.*"
+  ],
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "defineProps": "readonly",
+    "defineEmits": "readonly",
+    "withDefaults": "readonly"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
+  "rules": {
+    "import/prefer-default-export": "off"
+  },
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.vue"
+      ],
+      "parser": "vue-eslint-parser",
+      "parserOptions": {
+        "ecmaVersion": "latest",
+        "parser": "@typescript-eslint/parser",
+        "project": "tsconfig.json"
+      },
+      "extends": [
+        "@vue/typescript/recommended",
+        "airbnb-typescript/base"
+      ],
+      "rules": {
+        "no-undef": "off",
+        "no-cond-assign": "off",
+        "class-methods-use-this": "off",
+        "@typescript-eslint/no-shadow": "off"
+      }
+    },
+    {
+      "files": [
+        "src/pages/**/*.vue"
+      ],
+      "rules": {
+        "vue/multi-word-component-names": "off"
+      }
+    }
+  ]
+}

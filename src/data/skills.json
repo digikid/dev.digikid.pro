@@ -1,0 +1,161 @@
+[{
+  "id": "js",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "ts",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "node",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "html",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "css",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "sass",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "vue",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "pinia",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "vite",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "webpack",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "gulp",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "tailwind",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "bootstrap",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "bem",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "jquery",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "handlebars",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "git",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "jest",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "eslint",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "stylelint",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "docker",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "rest",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "firebase",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "pixel-perfect",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "figma",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "sketch",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "photoshop",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "macos",
+  "active": true,
+  "categories": ["hard"]
+}, {
+  "id": "responsibility",
+  "active": true,
+  "categories": ["soft"]
+}, {
+  "id": "learnability",
+  "active": true,
+  "categories": ["soft"]
+}, {
+  "id": "sociability",
+  "active": true,
+  "categories": ["soft"]
+}, {
+  "id": "attention",
+  "active": true,
+  "categories": ["soft"]
+}, {
+  "id": "teamwork",
+  "active": true,
+  "categories": ["soft"]
+}, {
+  "id": "self-motivation",
+  "active": true,
+  "categories": ["soft"]
+}, {
+  "id": "emotional-intelligence",
+  "active": true,
+  "categories": ["soft"]
+}, {
+  "id": "independence",
+  "active": true,
+  "categories": ["soft"]
+}, {
+  "id": "creativity",
+  "active": true,
+  "categories": ["soft"]
+}, {
+  "id": "proactivity",
+  "active": true,
+  "categories": ["soft"]
+}, {
+  "id": "artistic-sense",
+  "active": true,
+  "categories": ["soft"]
+}, {
+  "id": "growth-mindset",
+  "active": true,
+  "categories": ["soft"]
+}]

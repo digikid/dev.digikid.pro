@@ -1,0 +1,874 @@
+{
+  "code": "en-US",
+  "title": "English (US)",
+  "main": {
+    "title": "Alexander Dovlatov",
+    "description": "Vue.js frontend developer",
+    "copyright": "In JavaScript code we trust"
+  },
+  "pages": [{
+    "id": "home",
+    "title": "About",
+    "pageTitle": "Hello world",
+    "text": "I am a front-end developer with more than 8 years of experience. Currently I'm focused on a single-page application development with Vue.js. Basically I prefer rational minimalism and pay special attention to create user-friendly interface."
+  }, {
+    "id": "projects",
+    "title": "Portfolio",
+    "text": "When I work on my projects I implement the best modern practices if necessary. I follow the latest trends in front-end development, web design, UX/UI. "
+  }, {
+    "id": "tools",
+    "title": "Tools",
+    "text": "Useful tools and resources to automate routine tasks. I use most of them in my work regularly."
+  }, {
+    "id": "contacts",
+    "title": "Contacts",
+    "text": ""
+  }, {
+    "id": "404",
+    "title": "404",
+    "text": "Oops, nothing found. This page has probably been removed or you have followed an outdated link."
+  }],
+  "sections": [{
+    "id": "skills",
+    "title": "Skills",
+    "text": "I use a wide stack of modern development tools. I take training courses on new technologies quite often, so this list is regularly updated."
+  }, {
+    "id": "experience",
+    "title": "Work Experience",
+    "text": "As a web-developer I started with remote projects for different web studios. And I am grateful to everyone I've ever managed to work with in team."
+  }, {
+    "id": "education",
+    "title": "Education",
+    "text": "The front-end development industry is constantly changing, that's why I regularly improve my professional skills and attend meetups."
+  }, {
+    "id": "generators",
+    "title": "Generators",
+    "text": "Services for automating the main front-end tasks"
+  }, {
+    "id": "colors",
+    "title": "Colors",
+    "text": "Online services for generating color schemes and working with colors"
+  }, {
+    "id": "images",
+    "title": "Images",
+    "text": "Free stock image collections and image utilities"
+  }, {
+    "id": "icons",
+    "title": "Icons",
+    "text": "Sets of free SVG icons ready to be used in any project"
+  }, {
+    "id": "docs",
+    "title": "Documentation",
+    "text": "Frontend technologies documentation, cheat sheets and tutorials"
+  }, {
+    "id": "inspiration",
+    "title": "Inspiration",
+    "text": "Regularly updated collection of websites and design layouts for inspiration"
+  }],
+  "now": "present",
+  "filters": "Filters",
+  "location": "Republic of Kazakhstan, Uralsk",
+  "hard-skills": "Hard Skills",
+  "soft-skills": "Soft Skills",
+  "contacts": [{
+    "id": "main",
+    "title": "For Any Questions",
+    "text": "I usually reply within a day, but for urgent questions be free to text me in Telegram"
+  }, {
+    "id": "socials",
+    "title": "Always in touch",
+    "text": "You can also contact me on social networks:"
+  }, {
+    "id": "hr",
+    "title": "My CV",
+    "text": "I will consider your proposals for cooperation and send a resume upon request"
+  }, {
+    "id": "location",
+    "title": "Current Location",
+    "text": "If you want to meet me offline"
+  }],
+  "experience": [{
+    "id": "megamir",
+    "title": "Megamir Agency",
+    "subtitle": "Web Developer",
+    "text": "Development and support for CMS websites (Bitrix, Joomla and Wordpress). About 100 projects of various difficulty levels were developed (from landing pages to online stores) with my participation."
+  }, {
+    "id": "hoverlab",
+    "title": "Hoverlab Agency",
+    "subtitle": "Front-end Developer",
+    "text": "In a short time our team developed «Communicative Worlds» online game, official website of «Southern City District» school and made several websites for small business."
+  }, {
+    "id": "relevant",
+    "title": "Relevant Agency",
+    "subtitle": "Front-end Developer",
+    "text": "Leading the front-end development department. Creating single-page applications and layout of sites using Figma. Architecture planning of projects and implementation of new tools in the production cycle. Participation in the development of user interface. Technical interviewing and training new employees."
+  }, {
+    "id": "freelance",
+    "title": "Freelance",
+    "subtitle": "Front-end Developer",
+    "text": "Websites and SPA development for private persons and business clients."
+  }],
+  "education": [{
+    "id": "main",
+    "title": "Higher education",
+    "text": "Samara State Technical University"
+  }, {
+    "id": "udemy-pro-react-redux",
+    "title": "React + Redux",
+    "text": "Yuri Bura"
+  }, {
+    "id": "udemy-react-hooks",
+    "title": "React Hooks",
+    "text": "Alexander Kochergin"
+  }, {
+    "id": "udemy-react-complete-guide",
+    "title": "React Hooks",
+    "text": "Vladilen Minin"
+  }, {
+    "id": "result-school-js-excel",
+    "title": "Advanced JavaScript",
+    "text": "Result School"
+  }, {
+    "id": "tocode-webpack-guide",
+    "title": "Webpack 4. Full Customization",
+    "text": "ToCode"
+  }, {
+    "id": "tocode-vue-2",
+    "title": "Vue.js 2",
+    "text": "ToCode"
+  }, {
+    "id": "result-school-vue",
+    "title": "Vue.js 3",
+    "text": "Result School"
+  }, {
+    "id": "js-ninja-vue-free",
+    "title": "Vue.js 3",
+    "text": "JavaScript.Ninja"
+  }, {
+    "id": "tocode-vue-3",
+    "title": "Vue.js 3",
+    "text": "ToCode"
+  }, {
+    "id": "result-school-docker",
+    "title": "Docker Workshop",
+    "text": "Result School"
+  }, {
+    "id": "lavrik-vue-advanced",
+    "title": "Vue.js Advanced",
+    "text": "Dmitry Lavrik"
+  }, {
+    "id": "js-ninja-vue-testing",
+    "title": "Vue.js Testing",
+    "text": "JavaScript.Ninja"
+  }, {
+    "id": "udemy-typescript-bootcamp",
+    "title": "TypeScript",
+    "text": "Yuri Allahverdov"
+  }, {
+    "id": "udemy-typescript-full",
+    "title": "TypeScript & Design Patterns",
+    "text": "Anton Larichev"
+  }, {
+    "id": "vuemastery-typescript-friendly-vue3",
+    "title": "TypeScript Friendly Vue.js 3",
+    "text": "VueMastery"
+  }],
+  "skills": [{
+    "id": "js",
+    "title": "JavaScript"
+  }, {
+    "id": "ts",
+    "title": "TypeScript"
+  }, {
+    "id": "node",
+    "title": "Node.js"
+  }, {
+    "id": "html",
+    "title": "HTML"
+  }, {
+    "id": "css",
+    "title": "CSS"
+  }, {
+    "id": "sass",
+    "title": "SASS"
+  }, {
+    "id": "vue",
+    "title": "Vue.js"
+  }, {
+    "id": "pinia",
+    "title": "Pinia"
+  }, {
+    "id": "vite",
+    "title": "Vite"
+  }, {
+    "id": "webpack",
+    "title": "Webpack"
+  }, {
+    "id": "gulp",
+    "title": "Gulp"
+  }, {
+    "id": "tailwind",
+    "title": "Tailwind"
+  }, {
+    "id": "bootstrap",
+    "title": "Bootstrap"
+  }, {
+    "id": "bem",
+    "title": "BEM"
+  }, {
+    "id": "jquery",
+    "title": "jQuery"
+  }, {
+    "id": "handlebars",
+    "title": "Handlebars.js"
+  }, {
+    "id": "git",
+    "title": "Git"
+  }, {
+    "id": "jest",
+    "title": "Jest"
+  }, {
+    "id": "eslint",
+    "title": "ESLint"
+  }, {
+    "id": "stylelint",
+    "title": "StyleLint"
+  }, {
+    "id": "docker",
+    "title": "Docker"
+  }, {
+    "id": "rest",
+    "title": "REST API"
+  }, {
+    "id": "firebase",
+    "title": "Firebase"
+  }, {
+    "id": "pixel-perfect",
+    "title": "Pixel Perfect"
+  }, {
+    "id": "figma",
+    "title": "Figma"
+  }, {
+    "id": "sketch",
+    "title": "Sketch"
+  }, {
+    "id": "photoshop",
+    "title": "Photoshop"
+  }, {
+    "id": "macos",
+    "title": "macOS"
+  }, {
+    "id": "responsibility",
+    "title": "Responsibility"
+  }, {
+    "id": "learnability",
+    "title": "Learnability"
+  }, {
+    "id": "sociability",
+    "title": "Sociability"
+  }, {
+    "id": "attention",
+    "title": "Attention to Details"
+  }, {
+    "id": "teamwork",
+    "title": "Teamwork"
+  }, {
+    "id": "self-motivation",
+    "title": "Self-Motivation"
+  }, {
+    "id": "emotional-intelligence",
+    "title": "Emotional Intelligence"
+  }, {
+    "id": "independence",
+    "title": "Independence"
+  }, {
+    "id": "creativity",
+    "title": "Creativity"
+  }, {
+    "id": "proactivity",
+    "title": "Proactivity"
+  }, {
+    "id": "artistic-sense",
+    "title": "Artistic Sense"
+  }, {
+    "id": "growth-mindset",
+    "title": "Growth Mindset"
+  }],
+  "tools": [{
+    "id": "10015",
+    "title": "10015.io",
+    "text": "A «free all-in-one toolbox» solution created to ease your life by preventing bookmark mess"
+  }, {
+    "id": "omatsuri",
+    "title": "Omatsuri",
+    "text": "Progressive web application with 12 open source front-end focused tools"
+  }, {
+    "id": "haikei",
+    "title": "Haikei",
+    "text": "Helps to generate stunning visual content, ready to use with your design tools and workflow"
+  }, {
+    "id": "fffuel",
+    "title": "Fffuel",
+    "text": "A collection of color tools and free SVG generators for gradients, patterns and more"
+  }, {
+    "id": "password-generator",
+    "title": "Secure Password",
+    "text": "Online password generator to instantly create a secure, random password"
+  }, {
+    "id": "transfonter",
+    "title": "Transfonter",
+    "text": "This tool converts any font files to css @font-face formats"
+  }, {
+    "id": "font-face-generator",
+    "title": "Font Face",
+    "text": "An application to generate css rule and font files that makes your font work in all the browsers"
+  }, {
+    "id": "box-shadow-generator",
+    "title": "Box Shadow",
+    "text": "A web app to help you create awesome box shadows"
+  }, {
+    "id": "box-shadow-brumm",
+    "title": "Brumm Shadow",
+    "text": "A tool for making smoother box-shadows by layering"
+  }, {
+    "id": "clippy",
+    "title": "Clippy",
+    "text": "A tool for generating values for shape functions for the CSS clip-path property"
+  }, {
+    "id": "favicon-generator",
+    "title": "Favicon",
+    "text": "Produce all the icons you need for desktop browsers, mobile devices and more"
+  }, {
+    "id": "shaper",
+    "title": "Shaper",
+    "text": "A web service that helps to decide on the style of the interface"
+  }, {
+    "id": "keycode",
+    "title": "Keycode",
+    "text": "Press any key to get the JavaScript event keycode info"
+  }, {
+    "id": "easings",
+    "title": "Easings",
+    "text": "Simple cheat sheet that helps developers to pick the right easing function"
+  }, {
+    "id": "uicolors",
+    "title": "UI Colors",
+    "text": "Create, edit and save Tailwind CSS color shades based on a given hexcode"
+  }, {
+    "id": "coolors",
+    "title": "Coolors",
+    "text": "Generate or browse beautiful color combinations for your designs"
+  }, {
+    "id": "colormind",
+    "title": "Colormind",
+    "text": "A color scheme generator that uses deep learning"
+  }, {
+    "id": "mycolor",
+    "title": "ColorSpace",
+    "text": "A tool to generate color palettes, gradients and much more"
+  }, {
+    "id": "canva-palette-generator",
+    "title": "Canva Palette",
+    "text": "With color palette generator, you can create color combinations in seconds"
+  }, {
+    "id": "colornamer",
+    "title": "Color Namer",
+    "text": "Given a color, return a hierarchy of names"
+  }, {
+    "id": "unsplash",
+    "title": "Unsplash",
+    "text": "Beautiful, free images and photos that you can download and use for any project"
+  }, {
+    "id": "pexels",
+    "title": "Pexels",
+    "text": "Free stock photos & videos you can use everywhere"
+  }, {
+    "id": "burst",
+    "title": "Burst",
+    "text": "A free stock photo platform that is powered by Shopify"
+  }, {
+    "id": "undraw",
+    "title": "Undraw",
+    "text": "A constantly updated design project with beautiful SVG images that you can use completely free"
+  }, {
+    "id": "storyset",
+    "title": "StorySet",
+    "text": "Awesome free customizable illustrations for your next project"
+  }, {
+    "id": "boringavatars",
+    "title": "Boring Avatars",
+    "text": "A tiny library that generates custom, SVG-based, round avatars from any username and color palette"
+  }, {
+    "id": "background-remover",
+    "title": "AI Background Remover",
+    "text": "A quick and easy way to remove the background from any picture with a clear focal point"
+  }, {
+    "id": "icomoon",
+    "title": "Icomoon",
+    "text": "Provides a package of vector icons, along with a free HTML5 app for making custom icon fonts"
+  }, {
+    "id": "iconfinder",
+    "title": "Iconfinder",
+    "text": "The world's largest marketplace for icons, illustrations and more"
+  }, {
+    "id": "iconmonstr",
+    "title": "iconmonstr",
+    "text": "Discover 4699+ free icons in 316 collections"
+  }, {
+    "id": "heroicons",
+    "title": "heroicons",
+    "text": "Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS"
+  }, {
+    "id": "tabler-icons",
+    "title": "Tabler Icons",
+    "text": "Over 2800 pixel-perfect icons for web design"
+  }, {
+    "id": "basicons",
+    "title": "Basicons",
+    "text": "Basic icons for product design & development"
+  }, {
+    "id": "remixicon",
+    "title": "Remix Icon",
+    "text": "Neutral-style system symbols elaborately crafted for designers and developers"
+  }, {
+    "id": "boxicons",
+    "title": "Boxicons",
+    "text": "Open-source icons carefully crafted for designers & developers"
+  }, {
+    "id": "mdn",
+    "title": "MDN",
+    "text": "An open-source collaborative project that documents web platform technologies"
+  }, {
+    "id": "devdocs",
+    "title": "DevDocs",
+    "text": "Multiple API documentations in a fast, organized, and searchable interface"
+  }, {
+    "id": "css-almanac",
+    "title": "CSS-Tricks Almanac",
+    "text": "A complete CSS guide with filtering by properties"
+  }, {
+    "id": "tympanus-css-reference",
+    "title": "CSS Reference",
+    "text": "An extensive CSS reference with all the important properties"
+  }, {
+    "id": "javascript-info",
+    "title": "The Modern JavaScript Tutorial",
+    "text": "A simple, but detailed explanations with examples and tasks"
+  }, {
+    "id": "my-js",
+    "title": "MyJavaScript",
+    "text": "JavaScript tutorials, cheat sheets, questions and more"
+  }, {
+    "id": "refactoring-guru",
+    "title": "Refactoring.Guru",
+    "text": "Refactoring, design patterns, SOLID principles, and other smart programming topics"
+  }, {
+    "id": "thisthat",
+    "title": "ThisThat",
+    "text": "The differences between _ and _ in the front-end development"
+  }, {
+    "id": "devhints",
+    "title": "DevHints",
+    "text": "A modest collection of cheatsheets"
+  }, {
+    "id": "caniuse.com",
+    "title": "Can I use...",
+    "text": "Up-to-date browser support tables for support of front-end web technologies"
+  }, {
+    "id": "web-skills",
+    "title": "Web Skills",
+    "text": "A visual overview of useful skills to learn as a frontend developer"
+  }, {
+    "id": "frontend-roadmap",
+    "title": "Frontend Roadmap",
+    "text": "Step by step guide to becoming a modern frontend developer"
+  }, {
+    "id": "git-scm",
+    "title": "Git SCM",
+    "text": "The entire Pro Git book"
+  }, {
+    "id": "git-guide",
+    "title": "Git Simple Guide",
+    "text": "Just a simple guide for getting started with git"
+  }, {
+    "id": "gitexplorer",
+    "title": "Git Explorer",
+    "text": "Find the right commands you need without digging through the web"
+  }, {
+    "id": "awwwards",
+    "title": "Awwwards",
+    "text": "The awards of design, creativity and innovation on the internet"
+  }, {
+    "id": "dribbble",
+    "title": "Dribbble",
+    "text": "The home to the world's best design and creative professionals"
+  }, {
+    "id": "httpster",
+    "title": "httpster",
+    "text": "Collection of totally rocking websites"
+  }, {
+    "id": "lapaninja",
+    "title": "Lapa Ninja",
+    "text": "The site currently has over 5 000 submitted home pages for inspiration"
+  }, {
+    "id": "siteinspire",
+    "title": "Siteinspire",
+    "text": "A gallery of homepages using interesting and modern web design practices"
+  }, {
+    "id": "godly",
+    "title": "Godly",
+    "text": "A gallery with 15-20 second videos to showcase the core concept behind each design"
+  }, {
+    "id": "uijar",
+    "title": "UIJar",
+    "text": "Hand-curated collection of inspiring web designs, which can be filtering by color, style and industry"
+  }, {
+    "id": "brutalistwebsites",
+    "title": "Brutalist Websites",
+    "text": "Collection of websites in brutalist style for inspiration"
+  }, {
+    "id": "land-book",
+    "title": "Land-book",
+    "text": "Landing page designs with extensive filtering system"
+  }, {
+    "id": "onepagelove",
+    "title": "One Page Love",
+    "text": "The ultimate showcase of beautiful One Page websites, templates and resources"
+  }, {
+    "id": "admiretheweb",
+    "title": "Admire The Web",
+    "text": "Home to over 130 pages of inspiring web designs"
+  }, {
+    "id": "minimal-gallery",
+    "title": "Minimal Gallery",
+    "text": "Showcases the best minimal web designs that you can explore and examine"
+  }, {
+    "id": "io3000.com",
+    "title": "io3000.com",
+    "text": "The I/O 3000 gallery focuses on both Japanese but also Western designs"
+  }, {
+    "id": "codrops",
+    "title": "Codrops",
+    "text": "Web design and development blog about latest web trends, techniques and new possibilities"
+  }, {
+    "id": "codepen",
+    "title": "CodePen",
+    "text": "Social development environment for front-end designers and developers"
+  }],
+  "facts": {
+    "title": "Fun Fact",
+    "button": "Show next",
+    "fallback": {
+      "text": "Are you tired of clicking that button yet?",
+      "button": "Repeat again"
+    },
+    "items": [
+      "I developed my first site when table layout was still mainstream",
+      "I don't like to work in the morning because the best ideas come in the evening",
+      "I got drunk when Microsoft stopped supporting IE",
+      "My favorite music artists are Kasabian, Royksopp and Foals",
+      "I don't like corporate parties, but I'm crazy about IT conferences",
+      "I am not into sports but I enjoy cycling and walking",
+      "Another hobby of mine is making electronic music",
+      "I'm old enough to remember Flash sites, GIF backgrounds and guestbooks",
+      "I love horror films and sci-fi",
+      "Saint Petersburg, Kazan and Yekaterinburg are my favorite Russian cities",
+      "I can't go a day without a cup of coffee or energy drink",
+      "Thanks to the COVID I have started updating this site -_-",
+      "It is very important for me to understand that my work is not useless and helps other people",
+      "Once I got so carried away with a project that I didn't sleep for four nights in a row",
+      "A job where you have to sit from 9 to 18 sucks. A job with deadlines is a dream",
+      "On YouTube, I most often watch IT videos and lectures on astrophysics",
+      "Algebra and chemistry are my favorite school subjects",
+      "I swore never to work with Bitrix again",
+      "My favorite types of projects are CRM and admin panels",
+      "I am convinced that a successful project is a combination of competent management and a strong development team",
+      "I don't understand anything about arthouse and contemporary art",
+      "My favorite TV series - «Black Mirror» and «Lost»"
+    ]
+  },
+  "controls": {
+    "sort": "Sort projects by date",
+    "filters": "Show filters"
+  },
+  "categories": {
+    "*": "All",
+    "spa": "Single Page Applications",
+    "sites": "CRM Websites",
+    "support": "Site support",
+    "html": "HTML Coding",
+    "open-source": "Open Source",
+    "templates": "Templates",
+    "libs": "Libraries",
+    "web": "Online Tools",
+    "cli": "CLI Tools"
+  },
+  "project": {
+    "date": "Date",
+    "start": "Start date",
+    "finish": "Finish date",
+    "version": "Latest version",
+    "stack": "Used stack",
+    "url": "In Action",
+    "demo": "Demo",
+    "repo": "Source Code",
+    "details": "Details",
+    "search": "Let's search by name?"
+  },
+  "projects": [{
+    "id": "fond",
+    "title": "Regional Business Support Portal",
+    "description": "Official organization website support",
+    "details": [
+      "Publishing news and information about upcoming events",
+      "Regular site revision for new tasks",
+      "Configuring additional components (sliders, galleries, accordions)",
+      "Email newsletters coding",
+      "Creating graphic banners and HTML animations",
+      "Content optimization (images, PDF, etc.)",
+      "Setting up third-party services integrated into websites"
+    ]
+  }, {
+    "id": "lunettes",
+    "title": "Luxury Vision",
+    "description": "Online optics store support",
+    "details": [
+      "New products publication and regular catalog updating",
+      "HTML coding of promo sites",
+      "Content management"
+    ]
+  }, {
+    "id": "megamir",
+    "title": "MegaMir Agency",
+    "description": "Redesign and update of web agency site",
+    "details": [
+      "Complete redesign of the current site structure",
+      "Optimization of a ready-made solution for integration with Joomla, HTML coding",
+      "Installing on CMS, setting up system components",
+      "Partial transfer of information from the old site, publishing new information",
+      "SEO optimization"
+    ]
+  }, {
+    "id": "sj-collagen",
+    "title": "SJ-Collagen",
+    "description": "Promo site for «Skin & Joint» Collagen dietary supplements",
+    "details": [
+      "HTML coding of personal account, cart and sign-in / sign-up pages",
+      "Optimization of 1C-Bitrix components for page layouts",
+      "Animating HTML elements with CSS3 animations",
+      "Content management",
+      "Setting up the Yandex.Metrika analytics"
+    ]
+  }, {
+    "id": "mosaic-coffee-shop",
+    "title": "Mosaic Coffee",
+    "description": "Freshly roasted coffee online store",
+    "details": [
+      "HTML coding of catalog components, product filter and personal account pages",
+      "Optimization of 1C-Bitrix components for page layouts",
+      "Content management",
+      "Setting up additional components for customer tasks",
+      "Installing third-party widgets and analytic counters"
+    ]
+  }, {
+    "id": "npo-garant",
+    "title": "NPO Garant",
+    "description": "Insecticidal preparations catalog",
+    "details": [
+      "HTML coding of site components (sliders, featured products, navigation menu)",
+      "Optimization of 1C-Bitrix components for page layouts",
+      "Content management",
+      "Configuring a CSV File for automatic product upload",
+      "Installing third-party widgets and analytic counters"
+    ]
+  }, {
+    "id": "cy-19",
+    "title": "Construction Department #19",
+    "description": "Construction company promo site",
+    "details": [
+      "HTML coding with Bootstrap 3",
+      "Installing on Joomla CMS, setting up system components",
+      "Configuring categories to Joomla templates",
+      "Content management",
+      "Setting up a contact form and installing Google Captcha",
+      "Installing third-party widgets and analytic counters"
+    ]
+  }, {
+    "id": "lbb",
+    "title": "LBB",
+    "description": "Promo site for new generation synbiotics",
+    "details": [
+      "HTML coding with Bootstrap 3",
+      "Installing on Bitrix CMS, setting up system components",
+      "Content management"
+    ]
+  }, {
+    "id": "radio-vanya",
+    "title": "«Vanya» Radio Station",
+    "description": "HTML coding of multi-page site with Bootstrap 4",
+    "details": [
+      "HTML coding with Bootstrap 4",
+      "Animating HTML elements with CSS3 animations",
+      "Setting up jQuery plugins",
+      "HTML5 audio player coding",
+      "Setting up the Google Maps API, installing additional widgets and Yandex.Metrica analytics"
+    ]
+  }, {
+    "id": "microfin",
+    "title": "MicroFin",
+    "description": "Corporate website with a credit calculator",
+    "details": [
+      "Optimization of a ready-made solution for Joomla integration",
+      "Transferring content from the previous site, missing pages HTML coding",
+      "Development of a credit calculator that generates schedules of annuity and differentiated payments",
+      "Setting up Yandex.Metrica analytics",
+      "Step-by-step writing instructions for content manager"
+    ]
+  }, {
+    "id": "recruitment-service",
+    "title": "Recruitment Service",
+    "description": "HTML coding with Bootstrap 4"
+  }, {
+    "id": "rus63",
+    "title": "Export Support Fund",
+    "description": "HTML coding of official organization website",
+    "details": [
+      "HTML coding with Bootstrap 4",
+      "Lazy-loaded map (Yandex Map API)",
+      "Search panel animation effect"
+    ]
+  }, {
+    "id": "stekko",
+    "title": "Stekko",
+    "description": "HTML coding for tempered glass manufacturer",
+    "details": [
+      "HTML coding with Bootstrap 4",
+      "Custom animation for slides transition (Swiper)",
+      "Lazy-loaded map (Yandex Map API)",
+      "Animating HTML elements with CSS3"
+    ]
+  }, {
+    "id": "get-finance",
+    "title": "GetFinance",
+    "description": "HTML coding for legacy browsers (IE10)"
+  }, {
+    "id": "patients-transfer",
+    "title": "Bedridden patients transfer service",
+    "description": "Landing page with parallax effect"
+  }, {
+    "id": "warm-talks",
+    "title": "Teplye Besedy",
+    "description": "Multi-page site HTML coding for boarding houses network",
+    "details": [
+      "HTML coding with Bootstrap 4",
+      "Boarding houses catalog with filtering and interactive map",
+      "Deferred previews rendering (Handlebars)",
+      "Animated timeline image gallery",
+      "Lazy-loaded map (Yandex Map API)",
+      "UI-kit page coding"
+    ]
+  }, {
+    "id": "hundred-promo",
+    "title": "100 Pansionatov",
+    "description": "Landing page HTML coding for boarding houses network",
+    "details": [
+      "HTML coding with Bootstrap 4",
+      "Animating HTML elements with CSS3 animations",
+      "Navigation menu animation effect",
+      "Interactive contact form"
+    ]
+  }, {
+    "id": "lunch-delivery",
+    "title": "Delicious lunch delivery",
+    "description": "Landing page HTML coding for food delivery service",
+    "details": [
+      "HTML coding with Bootstrap 4",
+      "Animating HTML elements with CSS3 animations",
+      "Interactive order form with calculator"
+    ]
+  }, {
+    "id": "boarding-houses",
+    "title": "Boarding house service",
+    "description": "Multi-page catalog HTML coding",
+    "details": [
+      "HTML coding with Bootstrap 4",
+      "Boarding houses catalog with filtering and interactive map",
+      "Deferred previews rendering (Handlebars)",
+      "Lazy-loaded map (Yandex Map API)"
+    ]
+  }, {
+    "id": "kkz",
+    "title": "Krotovsky brick factory",
+    "description": "HTML coding of multi-page site with Bootstrap 4",
+    "details": [
+      "HTML coding with Bootstrap 4",
+      "Animating HTML elements with CSS3 animations",
+      "Custom animation for slides transition (Swiper)",
+      "Brick quantity calculator"
+    ]
+  }, {
+    "id": "caring-houses",
+    "title": "Caring Houses",
+    "description": "HTML coding of boarding houses catalog",
+    "details": [
+      "HTML coding with Bootstrap 4",
+      "Animating HTML elements with CSS3 animations",
+      "Boarding houses catalog with filtering and interactive map",
+      "Deferred previews rendering (Handlebars)",
+      "Interactive room booking form"
+    ]
+  }, {
+    "id": "zagorizont",
+    "title": "Open Your Russia",
+    "description": "HTML coding of multi-page site with personal account",
+    "details": [
+      "HTML coding with Bootstrap 4",
+      "Animating HTML elements with CSS3 animations",
+      "Development of personal account pages with a large number of complex forms",
+      "Custom uploader with file validation",
+      "Interactive route maps",
+      "Asynchronous forms validation and rendering server data"
+    ]
+  }, {
+    "id": "volga-coffee-fest",
+    "title": "Volga Coffee Fest",
+    "description": "Official promo page for Volga Coffee Fest"
+  }, {
+    "id": "mosaic-coffee",
+    "title": "What's in store for you today?",
+    "description": "Official promo page for «Mosaic Coffee» company"
+  }, {
+    "id": "dom-element",
+    "title": "Dom Element",
+    "description": "A set of methods for convenient manipulation of DOM elements"
+  }, {
+    "id": "tiny-compressor",
+    "title": "Tiny Compressor",
+    "description": "A command line JPG, PNG and WebP images compressor using TinyPNG API"
+  }, {
+    "id": "icomoon-converter",
+    "title": "Icomoon Converter",
+    "description": "Icomoon project to SASS / SVG converter"
+  }, {
+    "id": "create-gulp-project",
+    "title": "Create Gulp Project",
+    "description": "Configure projects based on gulp-project boilerplate"
+  }, {
+    "id": "gulp-project",
+    "title": "Gulp Project",
+    "description": "Automated project build with Gulp and Webpack"
+  }, {
+    "id": "vite-vue-project",
+    "title": "Vite + Vue Project",
+    "description": "Modern starter template for Vite with Vue and TypeScript"
+  }, {
+    "id": "ms-cleaner",
+    "title": "MS Cleaner",
+    "description": "MS Office / HTML cleaning tool"
+  }, {
+    "id": "dev.digikid.ru",
+    "title": "dev.digikid.ru",
+    "description": "My personal portfolio page where you are now"
+  }]
+}
+

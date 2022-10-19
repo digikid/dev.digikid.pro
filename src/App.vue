@@ -1,0 +1,86 @@
+<script setup lang="ts">
+import {
+  ref, watch, onMounted, markRaw, inject,
+} from 'vue';
+import { useGlobalStore } from '@stores/global';
+import { useLocale } from '@hooks/locale';
+import { useRouting } from '@hooks/routing';
+
+import { set as setLocal } from '@utils/localStorage';
+import { updateTitle } from '@utils/dom';
+import { capitalize } from '@utils/string';
+
+import MainLayout from '@layouts/MainLayout.vue';
+
+const { t, locale, messages } = useLocale();
+const { route } = useRouting();
+
+const store = useGlobalStore();
+
+const layout = ref();
+
+const metrika = inject<YandexMetrika.Counter>('metrika');
+
+if (store.colorMode === 'dark') {
+  document.documentElement.classList.add('dark');
+}
+
+onMounted(() => {
+  document.fonts.ready.then(() => {
+    document.querySelector('#app')?.classList.add('fade-in');
+  });
+});
+
+watch(
+  () => route.meta?.layout as string,
+  async (id) => {
+    try {
+      const path = `@layouts/${capitalize(id)}Layout.vue`;
+      const component = await import(/* @vite-ignore */path);
+
+      layout.value = markRaw(component?.default || MainLayout);
+    } catch (e) {
+      layout.value = markRaw(MainLayout);
+    }
+  },
+  {
+    immediate: true,
+  },
+);
+
+watch(() => store.colorMode, (value) => {
+  document.documentElement.classList.toggle('dark', value === 'dark');
+
+  setLocal('user-color-mode', value);
+});
+
+watch(() => locale.value, (value, prev) => {
+  document.documentElement.lang = value;
+
+  setLocal('user-locale', value);
+
+  if (prev && (prev !== value)) {
+    const page = (messages.value.pages as LocaleRecord[]).find((item) => item.id === route.name);
+    const title = (page && page.title) ? page.title : t('main.title');
+    const description = (page && page.text) ? page.text : t('main.description');
+
+    const args: Parameters<YandexMetrika.Counter['hit']> = [route.path];
+
+    if (page && page.title) {
+      args.push({
+        title,
+      });
+    }
+
+    updateTitle(`${title} — ${t('main.title')}`, description);
+
+    metrika?.hit(...args);
+  }
+});
+</script>
+
+<template>
+  <div class="wrapper w-full h-full">
+    <component :is="layout" />
+  </div>
+</template>

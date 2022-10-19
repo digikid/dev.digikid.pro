@@ -1,0 +1,326 @@
+[{
+  "id": "10015",
+  "active": true,
+  "categories": ["generators"],
+  "url": "https://10015.io"
+}, {
+  "id": "omatsuri",
+  "active": true,
+  "categories": ["generators"],
+  "url": "https://omatsuri.app"
+}, {
+  "id": "haikei",
+  "active": true,
+  "categories": ["generators"],
+  "url": "https://app.haikei.app"
+}, {
+  "id": "fffuel",
+  "active": true,
+  "categories": ["generators"],
+  "url": "https://fffuel.co"
+}, {
+  "id": "password-generator",
+  "active": true,
+  "categories": ["generators"],
+  "url": "https://www.lastpass.com/features/password-generator"
+}, {
+  "id": "transfonter",
+  "active": true,
+  "categories": ["generators"],
+  "url": "https://transfonter.org"
+}, {
+  "id": "font-face-generator",
+  "active": true,
+  "categories": ["generators"],
+  "url": "https://everythingfonts.com/font-face"
+}, {
+  "id": "box-shadow-generator",
+  "active": true,
+  "categories": ["generators"],
+  "url": "https://box-shadow.dev"
+}, {
+  "id": "box-shadow-brumm",
+  "active": true,
+  "categories": ["generators"],
+  "url": "https://shadows.brumm.af"
+}, {
+  "id": "clippy",
+  "active": true,
+  "categories": ["generators"],
+  "url": "https://bennettfeely.com/clippy"
+}, {
+  "id": "favicon-generator",
+  "active": true,
+  "categories": ["generators"],
+  "url": "https://realfavicongenerator.net"
+}, {
+  "id": "shaper",
+  "active": true,
+  "categories": ["generators"],
+  "url": "https://hihayk.github.io/shaper"
+}, {
+  "id": "keycode",
+  "active": true,
+  "categories": ["generators"],
+  "url": "https://www.toptal.com/developers/keycode"
+}, {
+  "id": "easings",
+  "active": true,
+  "categories": ["generators"],
+  "url": "https://easings.net"
+}, {
+  "id": "uicolors",
+  "active": true,
+  "categories": ["colors"],
+  "url": "https://uicolors.app"
+}, {
+  "id": "coolors",
+  "active": true,
+  "categories": ["colors"],
+  "url": "https://coolors.co"
+}, {
+  "id": "colormind",
+  "active": true,
+  "categories": ["colors"],
+  "url": "http://colormind.io"
+}, {
+  "id": "mycolor",
+  "active": true,
+  "categories": ["colors"],
+  "url": "https://mycolor.space"
+}, {
+  "id": "canva-palette-generator",
+  "active": true,
+  "categories": ["colors"],
+  "url": "https://www.canva.com/colors/color-palette-generator"
+}, {
+  "id": "colornamer",
+  "active": true,
+  "categories": ["colors"],
+  "url": "https://colornamer.netlify.app"
+}, {
+  "id": "unsplash",
+  "active": true,
+  "categories": ["images"],
+  "url": "https://unsplash.com"
+}, {
+  "id": "pexels",
+  "active": true,
+  "categories": ["images"],
+  "url": "https://www.pexels.com"
+}, {
+  "id": "burst",
+  "active": true,
+  "categories": ["images"],
+  "url": "https://burst.shopify.com"
+}, {
+  "id": "undraw",
+  "active": true,
+  "categories": ["images"],
+  "url": "https://undraw.co/illustrations"
+}, {
+  "id": "storyset",
+  "active": true,
+  "categories": ["images"],
+  "url": "https://storyset.com"
+}, {
+  "id": "boringavatars",
+  "active": true,
+  "categories": ["images"],
+  "url": "https://boringavatars.com"
+}, {
+  "id": "background-remover",
+  "active": true,
+  "categories": ["images"],
+  "url": "https://baseline.is/tools/background-remover"
+}, {
+  "id": "icomoon",
+  "active": true,
+  "categories": ["icons"],
+  "url": "https://icomoon.app"
+}, {
+  "id": "iconfinder",
+  "active": true,
+  "categories": ["icons"],
+  "url": "https://www.iconfinder.com"
+}, {
+  "id": "iconmonstr",
+  "active": true,
+  "categories": ["icons"],
+  "url": "https://iconmonstr.com"
+}, {
+  "id": "heroicons",
+  "active": true,
+  "categories": ["icons"],
+  "url": "https://heroicons.com"
+}, {
+  "id": "tabler-icons",
+  "active": true,
+  "categories": ["icons"],
+  "url": "https://tabler-icons.io"
+}, {
+  "id": "basicons",
+  "active": true,
+  "categories": ["icons"],
+  "url": "https://basicons.xyz"
+}, {
+  "id": "remixicon",
+  "active": true,
+  "categories": ["icons"],
+  "url": "https://remixicon.com"
+}, {
+  "id": "boxicons",
+  "active": true,
+  "categories": ["icons"],
+  "url": "https://boxicons.com"
+}, {
+  "id": "mdn",
+  "active": true,
+  "categories": ["docs"],
+  "url": "https://developer.mozilla.org"
+}, {
+  "id": "devdocs",
+  "active": true,
+  "categories": ["docs"],
+  "url": "https://devdocs.io"
+}, {
+  "id": "css-almanac",
+  "active": true,
+  "categories": ["docs"],
+  "url": "https://css-tricks.com/almanac"
+}, {
+  "id": "tympanus-css-reference",
+  "active": true,
+  "categories": ["docs"],
+  "url": "https://tympanus.net/codrops/css_reference"
+}, {
+  "id": "javascript-info",
+  "active": true,
+  "categories": ["docs"],
+  "url": "https://javascript.info"
+}, {
+  "id": "my-js",
+  "active": true,
+  "categories": ["docs"],
+  "url": "https://my-js.org"
+}, {
+  "id": "refactoring-guru",
+  "active": true,
+  "categories": ["docs"],
+  "url": "https://refactoring.guru"
+}, {
+  "id": "thisthat",
+  "active": true,
+  "categories": ["docs"],
+  "url": "https://thisthat.dev"
+}, {
+  "id": "devhints",
+  "active": true,
+  "categories": ["docs"],
+  "url": "https://devhints.io"
+}, {
+  "id": "caniuse.com",
+  "active": true,
+  "categories": ["docs"],
+  "url": "https://caniuse.com"
+}, {
+  "id": "web-skills",
+  "active": true,
+  "categories": ["docs"],
+  "url": "https://andreasbm.github.io/web-skills"
+}, {
+  "id": "frontend-roadmap",
+  "active": true,
+  "categories": ["docs"],
+  "url": "https://roadmap.sh/frontend"
+}, {
+  "id": "git-scm",
+  "active": true,
+  "categories": ["docs"],
+  "url": "https://git-scm.com/book/en/v2"
+}, {
+  "id": "git-guide",
+  "active": true,
+  "categories": ["docs"],
+  "url": "https://rogerdudler.github.io/git-guide"
+}, {
+  "id": "gitexplorer",
+  "active": true,
+  "categories": ["docs"],
+  "url": "https://gitexplorer.com"
+}, {
+  "id": "awwwards",
+  "active": true,
+  "categories": ["inspiration"],
+  "url": "https://www.awwwards.com"
+}, {
+  "id": "dribbble",
+  "active": true,
+  "categories": ["inspiration"],
+  "url": "https://dribbble.com"
+}, {
+  "id": "httpster",
+  "active": true,
+  "categories": ["inspiration"],
+  "url": "https://httpster.net"
+}, {
+  "id": "lapaninja",
+  "active": true,
+  "categories": ["inspiration"],
+  "url": "https://www.lapa.ninja"
+}, {
+  "id": "siteinspire",
+  "active": true,
+  "categories": ["inspiration"],
+  "url": "https://www.siteinspire.com"
+}, {
+  "id": "godly",
+  "active": true,
+  "categories": ["inspiration"],
+  "url": "https://godly.website"
+}, {
+  "id": "uijar",
+  "active": true,
+  "categories": ["inspiration"],
+  "url": "https://uijar.com"
+}, {
+  "id": "brutalistwebsites",
+  "active": true,
+  "categories": ["inspiration"],
+  "url": "https://brutalistwebsites.com"
+}, {
+  "id": "land-book",
+  "active": true,
+  "categories": ["inspiration"],
+  "url": "https://land-book.com"
+}, {
+  "id": "onepagelove",
+  "active": true,
+  "categories": ["inspiration"],
+  "url": "https://onepagelove.com"
+}, {
+  "id": "admiretheweb",
+  "active": true,
+  "categories": ["inspiration"],
+  "url": "https://www.admiretheweb.com"
+}, {
+  "id": "minimal-gallery",
+  "active": false,
+  "categories": ["inspiration"],
+  "url": "https://minimal.gallery"
+}, {
+  "id": "io3000.com",
+  "active": true,
+  "categories": ["inspiration"],
+  "url": "https://io3000.com"
+}, {
+  "id": "codrops",
+  "active": true,
+  "categories": ["inspiration"],
+  "url": "https://tympanus.net"
+}, {
+  "id": "codepen",
+  "active": true,
+  "categories": ["inspiration"],
+  "url": "https://codepen.io"
+}]

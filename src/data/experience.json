@@ -1,0 +1,23 @@
+[{
+  "id": "megamir",
+  "active": true,
+  "date": 1392318000000,
+  "finish": 1513450800000,
+  "url": "https://megamir.ru"
+}, {
+  "id": "hoverlab",
+  "active": true,
+  "date": 1470769200000,
+  "finish": 1534878000000
+}, {
+  "id": "relevant",
+  "active": true,
+  "date": 1533063600000,
+  "finish": -1,
+  "url": "https://relevant.ru"
+}, {
+  "id": "freelance",
+  "active": true,
+  "date": 1647370800000,
+  "finish": -1
+}]

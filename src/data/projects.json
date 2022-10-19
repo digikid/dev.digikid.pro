@@ -1,0 +1,577 @@
+[{
+  "id": "fond",
+  "active": true,
+  "date": 1415563200000,
+  "finish": 1471118400000,
+  "categories": [
+    "support"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "css",
+    "joomla"
+  ],
+  "logo": "/images/projects/fond.svg",
+  "url": "http://линия-успеха.рф/"
+}, {
+  "id": "lunettes",
+  "active": true,
+  "date": 1412884800000,
+  "finish": 1471118400000,
+  "categories": [
+    "support"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "css",
+    "joomla"
+  ],
+  "logo": "/images/projects/lunettes.svg",
+  "url": "https://www.lunettes.ru/"
+}, {
+  "id": "megamir",
+  "active": true,
+  "date": 1459972800000,
+  "categories": [
+    "sites",
+    "support"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "css",
+    "joomla"
+  ],
+  "logo": "/images/projects/megamir.svg",
+  "url": "https://megamir.ru/"
+}, {
+  "id": "sj-collagen",
+  "active": true,
+  "date": 1473192000000,
+  "categories": [
+    "sites",
+    "support"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "css",
+    "bitrix"
+  ],
+  "logo": "",
+  "url": "http://sjcollagen.ru/"
+}, {
+  "id": "mosaic-coffee-shop",
+  "active": true,
+  "date": 1478721600000,
+  "categories": [
+    "sites",
+    "support"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "css",
+    "bitrix"
+  ],
+  "logo": "/images/projects/mosaic-coffee.svg",
+  "url": "https://xn--80aaacdshc1bybzad0q.xn--p1ai/"
+}, {
+  "id": "npo-garant",
+  "active": true,
+  "date": 1481659200000,
+  "categories": [
+    "sites",
+    "support"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "css",
+    "bitrix"
+  ],
+  "logo": "/images/projects/npo-garant.svg",
+  "url": "https://npo-garant.com/"
+}, {
+  "id": "cy-19",
+  "active": true,
+  "date": 1489089600000,
+  "categories": [
+    "sites",
+    "support"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "css",
+    "bootstrap",
+    "joomla"
+  ],
+  "logo": "/images/projects/cy-19.svg",
+  "url": "https://cy-19.ru/"
+}, {
+  "id": "lbb",
+  "active": true,
+  "date": 1499025600000,
+  "categories": [
+    "sites",
+    "support"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "css",
+    "bootstrap",
+    "bitrix"
+  ],
+  "logo": "/images/projects/lbb.svg",
+  "url": "http://lactobb.ru/"
+}, {
+  "id": "radio-vanya",
+  "active": true,
+  "date": 1528228800000,
+  "categories": [
+    "html"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "css",
+    "bootstrap",
+    "gulp"
+  ],
+  "logo": "/images/projects/radio-vanya.svg",
+  "demo": "https://demo.digikid.ru/radio-vanya"
+}, {
+  "id": "microfin",
+  "active": true,
+  "date": 1566244800000,
+  "categories": [
+    "site",
+    "support"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "css",
+    "bootstrap",
+    "gulp",
+    "joomla"
+  ],
+  "logo": "/images/projects/microfin.svg",
+  "url": "http://microfin63.ru/"
+}, {
+  "id": "recruitment-service",
+  "active": true,
+  "date": 1567800000000,
+  "categories": [
+    "html"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "sass",
+    "bootstrap",
+    "gulp",
+    "git"
+  ],
+  "logo": "/images/projects/recruitment-service.svg",
+  "demo": "https://demo.digikid.ru/recruitment-service"
+}, {
+  "id": "rus63",
+  "active": true,
+  "date": 1568577600000,
+  "categories": [
+    "html"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "sass",
+    "bootstrap",
+    "gulp"
+  ],
+  "logo": "/images/projects/rus63.svg",
+  "demo": "https://demo.digikid.ru/rus63"
+}, {
+  "id": "stekko",
+  "active": true,
+  "date": 1573588800000,
+  "categories": [
+    "html"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "sass",
+    "bootstrap",
+    "gulp",
+    "git"
+  ],
+  "logo": "/images/projects/stekko.svg",
+  "demo": "https://demo.digikid.ru/stekko",
+  "url": "https://stekko.ru"
+}, {
+  "id": "get-finance",
+  "active": true,
+  "date": 1573588800000,
+  "categories": [
+    "html"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "sass",
+    "gulp",
+    "git"
+  ],
+  "logo": "/images/projects/get-finance.svg",
+  "demo": "https://demo.digikid.ru/get-finance",
+  "url": "https://getfinance.ru"
+}, {
+  "id": "patients-transfer",
+  "active": true,
+  "date": 1575748800000,
+  "categories": [
+    "html"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "sass",
+    "gulp",
+    "bootstrap",
+    "git"
+  ],
+  "logo": "/images/projects/patients-transfer.svg",
+  "demo": "https://demo.digikid.ru/patients-transfer"
+}, {
+  "id": "warm-talks",
+  "active": true,
+  "date": 1581624000000,
+  "categories": [
+    "html"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "sass",
+    "gulp",
+    "bootstrap",
+    "git"
+  ],
+  "logo": "/images/projects/warm-talks.svg",
+  "demo": "https://demo.digikid.ru/warm-talks",
+  "url": "https://teplye-besedy.ru"
+}, {
+  "id": "hundred-promo",
+  "active": true,
+  "date": 1584820800000,
+  "categories": [
+    "html"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "sass",
+    "gulp",
+    "bootstrap",
+    "git"
+  ],
+  "logo": "/images/projects/hundred-promo.svg",
+  "demo": "https://demo.digikid.ru/hundred-promo"
+}, {
+  "id": "lunch-delivery",
+  "active": true,
+  "date": 1586635200000,
+  "categories": [
+    "html"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "sass",
+    "gulp",
+    "bootstrap",
+    "git"
+  ],
+  "logo": "/images/projects/lunch-delivery.svg",
+  "demo": "https://demo.digikid.ru/lunch-delivery"
+}, {
+  "id": "boarding-houses",
+  "active": true,
+  "date": 1592251200000,
+  "categories": [
+    "html"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "sass",
+    "gulp",
+    "bootstrap",
+    "git"
+  ],
+  "logo": "/images/projects/boarding-houses.svg",
+  "demo": "https://demo.digikid.ru/boarding-houses",
+  "url": "https://vse-pansiony.ru"
+}, {
+  "id": "kkz",
+  "active": true,
+  "date": 1596398400000,
+  "categories": [
+    "html"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "sass",
+    "gulp",
+    "bootstrap",
+    "git"
+  ],
+  "logo": "/images/projects/kkz.svg",
+  "demo": "https://demo.digikid.ru/kkz",
+  "url": "https://kkz.ru"
+}, {
+  "id": "caring-houses",
+  "active": true,
+  "date": 1607544000000,
+  "categories": [
+    "html"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "sass",
+    "gulp",
+    "bootstrap",
+    "git"
+  ],
+  "logo": "/images/projects/caring-houses.svg",
+  "demo": "https://demo.digikid.ru/caring-houses",
+  "url": "https://pansionat-zabota24.ru"
+}, {
+  "id": "zagorizont",
+  "active": true,
+  "date": 1616270400000,
+  "categories": [
+    "html"
+  ],
+  "stack": [
+    "js",
+    "jquery",
+    "html",
+    "sass",
+    "gulp",
+    "bootstrap",
+    "git"
+  ],
+  "logo": "/images/projects/zagorizont.svg",
+  "demo": "https://demo.digikid.ru/zagorizont",
+  "url": "https://zagorizont.me"
+}, {
+  "id": "volga-coffee-fest",
+  "active": true,
+  "date": 1623009600000,
+  "categories": [
+    "sites",
+    "html"
+  ],
+  "stack": [
+    "js",
+    "html",
+    "sass",
+    "gulp",
+    "bootstrap",
+    "jquery"
+  ],
+  "logo": "/images/projects/volga-coffee-fest.svg",
+  "url": "http://volgacoffeefest.ru",
+  "repo": "https://github.com/digikid/volga-coffee-fest"
+}, {
+  "id": "ms-cleaner",
+  "active": true,
+  "date": 1652212800000,
+  "categories": [
+    "open-source",
+    "web"
+  ],
+  "stack": [
+    "ts",
+    "sass",
+    "html",
+    "eslint",
+    "vite",
+    "git"
+  ],
+  "logo": "https://github.com/digikid/ms-cleaner/raw/main/logo.svg",
+  "url": "https://digikid.github.io/ms-cleaner",
+  "repo": "https://github.com/digikid/ms-cleaner"
+}, {
+  "id": "gulp-project",
+  "active": true,
+  "date": 1584907200000,
+  "categories": [
+    "open-source",
+    "templates"
+  ],
+  "stack": [
+    "js",
+    "node",
+    "gulp",
+    "webpack",
+    "sass",
+    "html",
+    "bootstrap",
+    "eslint",
+    "stylelint",
+    "git"
+  ],
+  "logo": "https://github.com/digikid/gulp-project/raw/main/logo.svg",
+  "repo": "https://github.com/digikid/gulp-project",
+  "large": true
+}, {
+  "id": "tiny-compressor",
+  "active": true,
+  "date": 1656878400000,
+  "categories": [
+    "open-source",
+    "cli"
+  ],
+  "stack": [
+    "ts",
+    "node",
+    "eslint",
+    "git"
+  ],
+  "logo": "https://github.com/digikid/tiny-compressor/raw/main/logo.svg",
+  "repo": "https://github.com/digikid/tiny-compressor"
+}, {
+  "id": "icomoon-converter",
+  "active": true,
+  "date": 1657224000000,
+  "categories": [
+    "open-source",
+    "cli"
+  ],
+  "stack": [
+    "ts",
+    "node",
+    "eslint",
+    "git"
+  ],
+  "logo": "https://github.com/digikid/icomoon-converter/raw/main/logo.svg",
+  "repo": "https://github.com/digikid/icomoon-converter"
+}, {
+  "id": "mosaic-coffee",
+  "active": true,
+  "date": 1636488000000,
+  "categories": [
+    "spa"
+  ],
+  "stack": [
+    "js",
+    "vue",
+    "sass",
+    "firebase",
+    "bootstrap",
+    "webpack"
+  ],
+  "logo": "/images/projects/mosaic-coffee.svg",
+  "demo": "https://mosaic-coffee.web.app",
+  "repo": "https://github.com/digikid/mosaic-coffee"
+}, {
+  "id": "dev.digikid.ru",
+  "active": true,
+  "date": 1647201600000,
+  "categories": [
+    "spa"
+  ],
+  "stack": [
+    "ts",
+    "vue",
+    "vite",
+    "tailwind",
+    "postcss",
+    "eslint",
+    "git"
+  ],
+  "logo": "/images/logo.svg",
+  "url": "https://dev.digikid.ru",
+  "repo": "https://github.com/digikid/dev.digikid.ru"
+}, {
+  "id": "vite-vue-project",
+  "active": true,
+  "date": 1658606400000,
+  "categories": [
+    "open-source",
+    "templates"
+  ],
+  "stack": [
+    "ts",
+    "vite",
+    "vue",
+    "eslint",
+    "git"
+  ],
+  "logo": "https://github.com/digikid/vite-vue-project/raw/main/logo.svg",
+  "repo": "https://github.com/digikid/vite-vue-project",
+  "large": true
+}, {
+  "id": "create-gulp-project",
+  "active": true,
+  "date": 1642795200000,
+  "categories": [
+    "open-source",
+    "cli"
+  ],
+  "stack": [
+    "ts",
+    "node",
+    "eslint",
+    "git"
+  ],
+  "logo": "https://github.com/digikid/create-gulp-project/raw/main/logo.svg",
+  "repo": "https://github.com/digikid/create-gulp-project"
+}, {
+  "id": "dom-element",
+  "active": true,
+  "date": 1653163200000,
+  "categories": [
+    "open-source",
+    "libs"
+  ],
+  "stack": [
+    "ts",
+    "jest",
+    "webpack",
+    "eslint",
+    "git"
+  ],
+  "logo": "https://github.com/digikid/dom-element/raw/main/logo.svg",
+  "repo": "https://github.com/digikid/dom-element"
+}]

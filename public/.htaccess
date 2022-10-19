@@ -1,0 +1,19 @@
+<IfModule mod_negotiation.c>
+  Options -MultiViews
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^github https://github.com/digikid [R=301,L]
+  RewriteRule ^telegram https://t.me/digikid [R=301,L]
+  RewriteRule ^instagram https://instagram.com/sasha.dovlatov [R=301,L]
+  RewriteRule ^linkedin https://www.linkedin.com/in/digikid [R=301,L]
+  RewriteRule ^habr https://career.habr.com/digikid [R=301,L]
+  RewriteRule ^hh https://hh.ru/resume/17b2f292ff0249ecf10039ed1f476d31784a55 [R=301,L]
+  RewriteRule ^index\.php$ - [L]
+  RewriteCond %{REQUEST_URI}  !^/update/(.*)$ [NC]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.php [L]
+</IfModule>
