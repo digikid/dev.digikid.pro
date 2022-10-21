@@ -10,7 +10,7 @@
     "id": "home",
     "title": "About",
     "pageTitle": "Hello world",
-    "text": "I am a front-end developer with more than 8 years of experience. Currently I'm focused on a single-page application development with Vue.js. Basically I prefer rational minimalism and pay special attention to create user-friendly interface."
+    "text": "I am a front-end developer with more than 8 years of experience. Currently I'm focused on a single-page application development with Vue.js. Basically I prefer rational minimalism and pay special attention to create user-friendly interfaces."
   }, {
     "id": "projects",
     "title": "Portfolio",
@@ -67,7 +67,7 @@
   }],
   "now": "present",
   "filters": "Filters",
-  "location": "Republic of Kazakhstan, Uralsk",
+  "location": "Almaty, Republic of Kazakhstan",
   "hard-skills": "Hard Skills",
   "soft-skills": "Soft Skills",
   "contacts": [{
