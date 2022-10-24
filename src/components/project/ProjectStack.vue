@@ -25,11 +25,11 @@ const stack = computed<Record<string, string>>(() => dataStore.stack.reduce((acc
 
 <template>
   <ProjectWidget :title="t('project.stack')">
-    <div class="mt-1.5">
+    <div class="mt-2 -mb-1">
       <span
         v-for="(title, id) in stack"
         :key="id"
-        class="text-sm inline-block px-2 py-1 text-center whitespace-nowrap align-baseline font-bold bg-sky-600 text-white rounded mr-2 mb-2 last:mr-0"
+        class="inline-block px-2 py-1.5 text-[0.825rem] leading-[1.15] text-center text-white whitespace-nowrap align-baseline font-bold bg-sky-600 rounded mr-1.5 mb-1.5 last:mr-0"
       >
         {{ title }}
       </span>
