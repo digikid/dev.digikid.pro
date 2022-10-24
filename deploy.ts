@@ -37,6 +37,12 @@ const formatBytes = (bytes: number, digits: number = 2): string => {
   return '0 B';
 };
 
+if ([host, user, password].some((value) => (typeof value === 'undefined'))) {
+  console.log('Error: Environment params is not defined.');
+
+  process.exit(1);
+}
+
 (async () => {
   const client = new ftp.Client();
 
