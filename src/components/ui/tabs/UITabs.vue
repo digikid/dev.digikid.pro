@@ -54,7 +54,7 @@ provide('activeId', activeId);
             class="tabs-link mr-3 mb-3"
           >
             <a
-              class="whitespace-nowrap font-black text-gray-900 text-xl bg-[#F7BE38] transition-colors duration-[0ms] hover:duration-300 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+              class="inline-flex items-center whitespace-nowrap font-bold text-center text-gray-900 text-xl bg-[#F7BE38] transition-colors duration-[0ms] hover:duration-300 focus:outline-none rounded-lg px-5 py-2.5"
               :class="(activeId === item.id) ? 'bg-[#F7BE38] text-black' : 'bg-neutral-300 dark:text-neutral-100 dark:bg-neutral-900'"
               :href="`#tab-${item.id}`"
               @click.prevent="onClick(item.id)"
