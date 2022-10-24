@@ -15,8 +15,6 @@ const emit = defineEmits<{ (e: 'update', id: string): void }>();
 
 const { t } = useLocale();
 
-const items = computed<GridFilter[]>(() => props.items.filter(({ active }) => !active));
-
 const current = computed<string>(() => {
   const id = props.items.find(({ active }) => active)?.id;
 
@@ -84,7 +82,7 @@ const onClick = (id: string, cb?: CallbackFunction) => {
         >
           <ul class="block list-none">
             <li
-              v-for="item in items"
+              v-for="item in props.items"
               :key="item.id"
               class="group"
             >
