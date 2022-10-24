@@ -2,7 +2,10 @@
 import {
   ref, watch, onMounted, markRaw, inject,
 } from 'vue';
+
 import { useGlobalStore } from '@stores/global';
+import { useDataStore } from '@stores/data';
+
 import { useLocale } from '@hooks/locale';
 import { useRouting } from '@hooks/routing';
 
@@ -16,6 +19,7 @@ const { t, locale, messages } = useLocale();
 const { route } = useRouting();
 
 const store = useGlobalStore();
+const dataStore = useDataStore();
 
 const layout = ref();
 
@@ -24,6 +28,10 @@ const metrika = inject<YandexMetrika.Counter>('metrika');
 if (store.colorMode === 'dark') {
   document.documentElement.classList.add('dark');
 }
+
+(async () => {
+  await dataStore.loadVersions();
+})();
 
 onMounted(() => {
   document.fonts.ready.then(() => {

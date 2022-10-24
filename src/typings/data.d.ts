@@ -8,6 +8,7 @@ type ProjectData = BaseData & {
   categories: string[];
   stack: string[];
   repo: string;
+  version: string;
   url?: string;
   repo?: string;
   demo?: string;
