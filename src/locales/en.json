@@ -207,6 +207,9 @@
     "id": "gulp",
     "title": "Gulp"
   }, {
+    "id": "css-modules",
+    "title": "CSS Modules"
+  }, {
     "id": "tailwind",
     "title": "Tailwind"
   }, {

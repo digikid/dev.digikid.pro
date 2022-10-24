@@ -43,6 +43,10 @@
   "active": true,
   "categories": ["hard"]
 }, {
+  "id": "css-modules",
+  "active": true,
+  "categories": ["hard"]
+}, {
   "id": "tailwind",
   "active": true,
   "categories": ["hard"]
