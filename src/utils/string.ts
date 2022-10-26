@@ -12,3 +12,24 @@ export const truncate = (str = '', limit = 120, ellipsis = '...') => {
 
   return `${(str ? lastWord : subString)}${ellipsis}`;
 };
+
+export const multiline = (str: string, limit = Infinity) => {
+  if (str.length <= limit) {
+    return str;
+  }
+
+  const parts: string[] = [];
+
+  str.split(' ').forEach((word) => {
+    const lastIndex = parts.lastIndexOf('\n') + 1;
+    const total = [...parts].slice(lastIndex).reduce((acc, word) => acc + word.length, 0);
+
+    if ((total + word.length) > limit) {
+      parts.push('\n');
+    }
+
+    parts.push(`${word} `);
+  });
+
+  return parts.join('');
+};
