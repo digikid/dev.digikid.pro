@@ -31,7 +31,7 @@ const metrika = inject<YandexMetrika.Counter>('metrika');
 const greetings = computed(() => {
   const main = messages.value?.main as any;
 
-  return (main.console ? main.console : []) as string[];
+  return (main.greetings ? main.greetings : []) as string[];
 });
 
 const showGreetings = (clear = false) => {
