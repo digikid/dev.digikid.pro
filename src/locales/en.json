@@ -599,7 +599,8 @@
   },
   "controls": {
     "sort": "Sort projects by date",
-    "filters": "Show filters"
+    "filters": "Show filters",
+    "remove": "Remove"
   },
   "categories": {
     "*": "All",
