@@ -3,7 +3,7 @@ type BaseData = {
   active: boolean;
 };
 
-type ProjectData = BaseData & {
+type ProjectsData = BaseData & {
   date: number;
   categories: string[];
   stack: string[];
@@ -17,18 +17,25 @@ type ProjectData = BaseData & {
   large?: boolean;
 };
 
-type ProjectLocale = {
+type ProjectsLocale = {
   title: string;
   description?: string;
   details?: string[];
 };
 
-type ProjectLink = Record<string, {
-  url: string;
-  title: string;
-}>;
+type ProjectsItem = ProjectsData & ProjectsLocale;
 
-type Project = ProjectData & ProjectLocale;
+type EducationData = BaseData & {
+  date: number;
+  url?: string;
+};
+
+type EducationLocale = {
+  title: string;
+  text: string;
+};
+
+type EducationItem = EducationData & EducationLocale;
 
 type ExperienceData = BaseData & {
   date: number;
@@ -42,7 +49,7 @@ type ExperienceLocale = {
   text: string;
 };
 
-type Experience = ExperienceData & ExperienceLocale;
+type ExperienceItem = ExperienceData & ExperienceLocale;
 
 type SkillsData = BaseData & {
   categories: string[];
@@ -52,15 +59,15 @@ type SkillsLocale = {
   title: string;
 };
 
-type Skills = SkillsData & SkillsLocale;
+type SkillsItem = SkillsData & SkillsLocale;
 
-type ContactsItem = BaseData & {
+type ContactsSubitem = BaseData & {
   title: string;
   url: string;
 };
 
 type ContactData = BaseData & {
-  items: ContactsItem[];
+  items: ContactsSubitem[];
 };
 
 type ContactsLocalize = {
@@ -68,7 +75,7 @@ type ContactsLocalize = {
   text: string;
 };
 
-type Contacts = ContactData & ContactsLocalize;
+type ContactsItem = ContactData & ContactsLocalize;
 
 type ToolsData = BaseData & {
   categories: string[];
@@ -80,14 +87,14 @@ type ToolsLocale = {
   text: string;
 };
 
-type Tools = ToolsData & ToolsLocale;
+type ToolsItem = ToolsData & ToolsLocale;
 
 type FactsFallback = {
   text: string;
   button: string;
 };
 
-type Facts = {
+type FactsItem = {
   title: string;
   button: string;
   fallback: FactsFallback;

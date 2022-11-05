@@ -32,3 +32,15 @@ type TimelineItem = {
   text?: string;
   url?: string;
 };
+
+type StackItem = {
+  id: string;
+  title: string;
+};
+
+type LinkItem = {
+  id: string;
+  title: string;
+  url: string;
+  target?: boolean;
+};
