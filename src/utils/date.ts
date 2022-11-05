@@ -1,6 +1,6 @@
 import { capitalize } from '@utils/string';
 
-export const format = (ms: number, locale = 'en-US'): string => {
+export const format = (ms?: number, locale = 'en-US'): string => {
   if (typeof ms !== 'number') return '';
 
   const date = new Date(ms);
