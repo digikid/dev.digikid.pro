@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import IconSearch from '@components/icons/IconSearch.vue';
+
 const props = withDefaults(defineProps<{
   value?: string;
   placeholder?: string;
@@ -13,28 +15,38 @@ const onInput = (e: Event) => emit('update', (<HTMLInputElement>(e.target)).valu
 </script>
 
 <template>
-  <div class="relative">
+  <div class="grid__search">
     <input
       type="text"
-      class="peer block w-full h-full text-left text-lg dark:text-dusky-50 xl:text-2xl font-bold outline-none cursor-pointer pl-12 md:pl-14 pr-2 md:pr-3 py-3 bg-white dark:bg-neutral-900 rounded-xl border border-transparent focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-600 placeholder:text-neutral-200 dark:placeholder:text-dusky-800"
+      class="grid__search-input"
       :value="props.value"
       :placeholder="props.placeholder"
       @input="onInput"
     >
-    <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none text-neutral-200 dark:text-dusky-700 peer-focus:text-sky-600">
-      <svg
-        aria-hidden="true"
-        class="w-7"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      ><path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-      /></svg>
+    <div class="grid__search-holder">
+      <IconSearch class="grid__search-icon" />
     </div>
   </div>
 </template>
+
+<style>
+.grid__search {
+  @apply relative;
+}
+
+input.grid__search-input {
+  @apply block w-full h-full text-left text-lg dark:text-dusky-50 xl:text-2xl font-bold outline-none cursor-pointer pl-12 md:pl-14 pr-2 md:pr-3 py-3 bg-white dark:bg-neutral-900 rounded-xl border border-transparent focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-600 placeholder:text-neutral-200 dark:placeholder:text-dusky-800;
+}
+
+.grid__search-holder {
+  @apply flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none text-neutral-200 dark:text-dusky-700;
+}
+
+input.grid__search-input:focus + .grid__search-holder {
+  @apply text-sky-600;
+}
+
+.grid__search-icon {
+  @apply w-7;
+}
+</style>

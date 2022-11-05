@@ -20,33 +20,33 @@ const items = computed(() => (data.value ? data.value.items : []));
   >
     <div
       v-if="data.title || data.text"
-      class="socials-header"
+      class="socials__header"
     >
       <div
         v-if="data.title"
-        class="inline-flex flex-wrap items-center text-xl sm:text-[3vw] md:text-[2.5vw] lg:text-base font-bold mb-2"
+        class="socials__heading"
       >
         <img
-          class="inline w-5 h-5 mr-3"
+          class="socials__icon"
           src="/images/emoji/write.png"
         >
-        <span class="inline">{{ data.title }}</span>
+        <span class="socials__title">{{ data.title }}</span>
       </div>
       <div
         v-if="data.text"
-        class="text-base lg:text-sm text-neutral-400 dark:text-neutral-700"
+        class="socials__text"
       >
         {{ data.text }}
       </div>
     </div>
-    <div class="socials-content mt-4">
-      <div class="inline-flex flex-wrap gap-6 lg:gap-3">
+    <div class="socials__main">
+      <div class="socials__list">
         <a
           v-for="item in items"
           :key="item.id"
           :href="item.url"
           target="_blank"
-          class="block w-10 h-10 lg:w-6 lg:h-6 opacity-20 dark:opacity-80 grayscale transition hover:opacity-100 hover:grayscale-0"
+          class="socials__item"
         >
           <img
             :src="`/images/socials/${item.id}-colored.svg`"
@@ -57,3 +57,35 @@ const items = computed(() => (data.value ? data.value.items : []));
     </div>
   </div>
 </template>
+
+<style>
+.socials {}
+
+.socials__heading {
+  @apply inline-flex flex-wrap items-center text-xl sm:text-[3vw] md:text-[2.5vw] lg:text-base font-bold mb-2;
+}
+
+.socials__icon {
+  @apply inline w-5 h-5 mr-3;
+}
+
+.socials__title {
+  @apply inline;
+}
+
+.socials__text {
+  @apply text-base lg:text-sm text-neutral-400 dark:text-neutral-700;
+}
+
+.socials__main {
+  @apply mt-4;
+}
+
+.socials__list {
+  @apply inline-flex flex-wrap gap-6 lg:gap-3;
+}
+
+.socials__item {
+  @apply block w-10 h-10 lg:w-6 lg:h-6 opacity-20 dark:opacity-80 grayscale transition hover:opacity-100 hover:grayscale-0;
+}
+</style>

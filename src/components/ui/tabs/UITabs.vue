@@ -45,29 +45,31 @@ provide('activeId', activeId);
     v-if="items.length"
     class="tabs"
   >
-    <div class="tabs-wrapper overflow-y-auto no-scrollbar snap-x -ml-4 -mr-4">
-      <div class="px-4">
-        <ul class="tabs-nav inline-flex">
+    <div class="tabs__outer">
+      <div class="tabs__inner">
+        <ul class="tabs__nav">
           <li
             v-for="item in items"
             :key="item.id"
-            class="tabs-link mr-3 mb-3"
+            class="tabs__button"
           >
             <a
-              class="inline-flex items-center whitespace-nowrap font-bold text-center text-gray-900 text-xl bg-[#F7BE38] transition-colors duration-[0ms] hover:duration-300 focus:outline-none rounded-lg px-5 py-2.5"
-              :class="(activeId === item.id) ? 'bg-[#F7BE38] text-black' : 'bg-neutral-300 dark:text-neutral-100 dark:bg-neutral-900'"
+              class="tabs__link"
+              :class="{
+                'tabs__link--active': (activeId === item.id)
+              }"
               :href="`#tab-${item.id}`"
               @click.prevent="onClick(item.id)"
             >
               <span
                 v-if="item.icon"
-                class="w-5 h-5 mr-3"
+                class="tabs__icon"
               >
                 <component
                   :is="item.icon"
                 />
               </span>
-              <span>
+              <span class="tabs__title">
                 {{ item.title }}
               </span>
             </a>
@@ -75,8 +77,46 @@ provide('activeId', activeId);
         </ul>
       </div>
     </div>
-    <div class="tabs-content mt-6 lg:mt-7">
+    <div class="tabs__content">
       <slot />
     </div>
   </div>
 </template>
+
+<style>
+.tabs {}
+
+.tabs__outer {
+  @apply overflow-y-auto no-scrollbar snap-x -ml-4 -mr-4;
+}
+
+.tabs__inner {
+  @apply px-4;
+}
+
+.tabs__nav {
+  @apply inline-flex;
+}
+
+.tabs__button {
+  @apply mr-3 mb-3;
+}
+
+.tabs__link {
+  @apply inline-flex items-center whitespace-nowrap font-bold text-center text-gray-900 text-xl bg-[#F7BE38] transition-colors duration-[0ms] hover:duration-300 focus:outline-none rounded-lg px-5 py-2.5 bg-neutral-300 dark:text-neutral-100 dark:bg-neutral-900;
+}
+
+.tabs__link--active {
+  @apply bg-[#F7BE38] text-black;
+}
+
+.tabs__icon {
+  @apply w-5 h-5 mr-3;
+}
+
+.tabs__title {}
+
+.tabs__content {
+  @apply mt-6 lg:mt-7;
+}
+</style>

@@ -37,25 +37,26 @@ watch(() => props.active, () => {
 </script>
 
 <template>
-  <div class="w-full h-full flex items-center justify-center">
+  <div
+    class="hamburger"
+    :class="{
+      'hamburger--locked': isAnimated || props.locked,
+      'hamburger--active': props.active
+    }"
+  >
     <a
       href="#"
-      class="block p-2"
-      :class="{
-        'pointer-events-none': isAnimated || props.locked
-      }"
+      class="hamburger__wrapper"
       @click.prevent="emit('toggle')"
     >
       <svg
-        class="w-full h-full select-none transition-transform"
+        class="hamburger__bars"
         :style="`transition-duration: ${props.duration}ms`"
-        :class="{
-          'rotate-45': props.active
-        }"
         viewBox="0 0 100 100"
       >
         <g transform="scale(1.5) translate(-15, -17.5)">
           <path
+            class="hamburger__bar hamburger__bar--1"
             :style="`transition: stroke-dasharray ${props.duration}ms, stroke-dashoffset ${props.duration}ms, stroke ${props.duration}ms`"
             fill="none"
             :stroke="props.color"
@@ -66,10 +67,7 @@ watch(() => props.active, () => {
             d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
           />
           <path
-            class="transition-transform middle origin-[50%]"
-            :class="{
-              'rotate-90': props.active
-            }"
+            class="hamburger__bar hamburger__bar--2"
             :style="`transition: stroke ${props.duration}ms`"
             fill="none"
             :stroke="props.color"
@@ -79,7 +77,7 @@ watch(() => props.active, () => {
             d="m 30,50 h 40"
           />
           <path
-            class="bottom origin-[50%]"
+            class="hamburger__bar hamburger__bar--3"
             :style="`transition: transform ${props.duration}ms, stroke-dashoffset ${props.duration}ms, stroke ${props.duration}ms`"
             fill="none"
             :stroke="props.color"
@@ -94,3 +92,40 @@ watch(() => props.active, () => {
     </a>
   </div>
 </template>
+
+<style>
+.hamburger {
+  @apply w-full h-full flex items-center justify-center;
+}
+
+.hamburger__wrapper {
+  @apply block p-2;
+}
+
+.hamburger--locked .hamburger__wrapper {
+  @apply pointer-events-none;
+}
+
+.hamburger__bars {
+  @apply w-full h-full select-none transition-transform;
+}
+
+.hamburger--active .hamburger__bars {
+  @apply rotate-45;
+}
+
+.hamburger__bar {}
+.hamburger__bar--1 {}
+
+.hamburger__bar--2 {
+  @apply transition-transform origin-[50%];
+}
+
+.hamburger--active .hamburger__bar--2 {
+  @apply rotate-90;
+}
+
+.hamburger__bar--3 {
+  @apply origin-[50%];
+}
+</style>

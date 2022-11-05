@@ -7,7 +7,6 @@ import { useGlobalStore } from '@stores/global';
 import { smoothScroll } from '@utils/scroll';
 
 import WidgetNav from '@components/widgets/WidgetNav.vue';
-import WidgetChapters from '@components/widgets/WidgetChapters.vue';
 import UITransition from '@components/ui/UITransition.vue';
 
 const store = useGlobalStore();
@@ -60,15 +59,17 @@ const onChaptersClick = (id: string) => {
 </script>
 
 <template>
-  <div class="header-nav grow flex flex-col justify-center lg:justify-start p-6 pb-0 lg:pt-8 lg:px-[42px]">
-    <WidgetNav
-      id="main"
-      :items="navItems"
-      @route="onNavClick"
-    />
-    <div class="hidden lg:block mt-6 empty:hidden">
+  <div class="header__nav">
+    <div class="header__nav-main">
+      <WidgetNav
+        id="main"
+        :items="navItems"
+        @route="onNavClick"
+      />
+    </div>
+    <div class="header__nav-chapters">
       <UITransition toggle>
-        <WidgetChapters
+        <WidgetNav
           id="chapters"
           :items="store.chapters"
           @route="onChaptersClick"
@@ -77,3 +78,13 @@ const onChaptersClick = (id: string) => {
     </div>
   </div>
 </template>
+
+<style>
+.header__nav {
+  @apply grow flex flex-col justify-center lg:justify-start p-6 pb-0 lg:pt-8 lg:px-[42px];
+}
+
+.header__nav-chapters {
+  @apply hidden lg:block mt-6 empty:hidden;
+}
+</style>

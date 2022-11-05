@@ -4,7 +4,7 @@ import UITransition from '@components/ui/UITransition.vue';
 
 <template>
   <main
-    class="main relative flex flex-col z-[1] mb-[84px] lg:mb-0 grow bg-neutral-200 dark:bg-black"
+    class="main"
     role="main"
   >
     <RouterView v-slot="{ Component }">
@@ -14,3 +14,9 @@ import UITransition from '@components/ui/UITransition.vue';
     </RouterView>
   </main>
 </template>
+
+<style>
+.main {
+  @apply relative flex flex-col z-[1] mb-[84px] lg:mb-0 grow bg-neutral-200 dark:bg-black;
+}
+</style>

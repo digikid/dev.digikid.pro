@@ -6,8 +6,14 @@ import TheFooter from '@components/TheFooter.vue';
 
 <template>
   <TheHeader />
-  <div class="inner relative w-full min-h-full flex flex-col pt-16 lg:pt-0 lg:pl-[320px]">
+  <div class="inner">
     <TheMain />
     <TheFooter />
   </div>
 </template>
+
+<style>
+.inner {
+  @apply relative w-full min-h-full flex flex-col pt-16 lg:pt-0 lg:pl-[320px];
+}
+</style>

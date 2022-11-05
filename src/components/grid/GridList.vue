@@ -18,12 +18,12 @@ const props = withDefaults(defineProps<{
   data?: GridData;
 }>(), {
   options: () => ({
-    containerClass: 'items',
-    itemClass: 'item',
-    itemVisibleClass: 'z-[1]',
-    itemHiddenClass: 'z-[0]',
-    itemReleasingClass: 'z-[2]',
-    itemDraggingClass: 'z-[3]',
+    containerClass: 'grid__list-inner',
+    itemClass: 'grid__item',
+    itemVisibleClass: 'grid__item--visible',
+    itemHiddenClass: 'grid__item--hidden',
+    itemReleasingClass: 'grid__item--releasing',
+    itemDraggingClass: 'grid__item--dragging',
     layoutOnResize: true,
     layoutDuration: 150,
   }),
@@ -142,12 +142,12 @@ watch(() => locale.value, () => {
 
 <template>
   <div
-    class="w-full overflow-hidden"
+    class="grid__list"
   >
-    <div class="-mx-3">
+    <div class="grid__list-outer">
       <div
         ref="$grid"
-        class="relative flex flex-wrap"
+        class="grid__list-inner"
         data-grid
       >
         <slot />
@@ -157,16 +157,15 @@ watch(() => locale.value, () => {
 </template>
 
 <style>
-.z-\[0\] {
-  z-index: 0;
+.grid__list {
+  @apply w-full overflow-hidden;
 }
-.z-\[1\] {
-  z-index: 1;
+
+.grid__list-outer {
+  @apply -mx-3;
 }
-.z-\[2\] {
-  z-index: 2;
-}
-.z-\[3\] {
-  z-index: 3;
+
+.grid__list-inner {
+  @apply relative flex flex-wrap;
 }
 </style>

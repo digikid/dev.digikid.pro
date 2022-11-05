@@ -5,6 +5,8 @@ import { useLocale } from '@hooks/locale';
 import { Float } from '@headlessui-float/vue';
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue';
 
+import IconChevron from '@components/icons/IconChevron.vue';
+
 const props = withDefaults(defineProps<{
   items?: GridFilter[],
 }>(), {
@@ -31,8 +33,14 @@ const onClick = (id: string, cb?: CallbackFunction) => {
 </script>
 
 <template>
-  <div v-if="props.items.length">
-    <Popover v-slot="{ open }">
+  <div
+    v-if="props.items.length"
+    class="grid__categories"
+  >
+    <Popover
+      v-slot="{ open }"
+      class="grid__categories-popover"
+    >
       <Float
         placement="bottom-start"
         :offset="{
@@ -49,52 +57,37 @@ const onClick = (id: string, cb?: CallbackFunction) => {
         leave-to="opacity-0 -translate-y-1"
       >
         <PopoverButton
-          class="w-full text-left text-lg dark:text-dusky-50 xl:text-2xl font-bold outline-none cursor-pointer pl-4 md:pl-5 pr-2 md:pr-3 py-3 bg-white dark:bg-neutral-900 rounded-xl border-2"
-          :class="open ? 'border-sky-600' : 'border-transparent'"
+          class="grid__categories-button"
+          :class="{
+            'grid__categories-button--active': open
+          }"
         >
-          <div class="flex items-center justify-between">
-            <span class="leading-0 whitespace-none">
+          <div class="grid__categories-current">
+            <span class="grid__categories-title">
               {{ current }}
             </span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="translate-y-0.5 w-7 stroke-neutral-200 dark:stroke-dusky-700 ml-3"
-              :class="open ? 'stroke-sky-600 dark:stroke-sky-600': ''"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path
-                stroke="none"
-                d="M0 0h24v24H0z"
-                fill="none"
-              />
-              <polyline points="6 9 12 15 18 9" />
-            </svg>
+            <IconChevron class="grid__categories-icon" />
           </div>
         </PopoverButton>
         <PopoverPanel
           v-slot="{ close }"
-          class="bg-white dark:bg-neutral-900 rounded-xl shadow overflow-hidden shadow-neutral-300 dark:shadow-black"
+          class="grid__categories-dropdown"
         >
-          <ul class="block list-none">
+          <ul class="grid__categories-list">
             <li
               v-for="item in props.items"
               :key="item.id"
-              class="group"
+              class="grid__categories-item"
             >
               <a
                 href="#"
-                class="group block py-1.5 px-4 md:text-lg hover:bg-neutral-100 dark:text-dusky-400 dark:hover:bg-neutral-800 dark:hover:text-white transition"
+                class="grid__categories-link"
                 role="menuitem"
                 @click.prevent="onClick(item.id, close)"
               >
-                <div class="flex items-center whitespace-nowrap">
+                <div class="grid__categories-title">
                   {{ item.title }}
-                  <span class="inline-flex justify-center items-center ml-2 w-5 h-5 text-[12px] font-semibold text-sky-600 dark:text-sky-400 bg-neutral-200 dark:bg-neutral-800 rounded-full">{{ item.total }}</span>
+                  <span class="grid__categories-counter">{{ item.total }}</span>
                 </div>
               </a>
             </li>
@@ -104,3 +97,53 @@ const onClick = (id: string, cb?: CallbackFunction) => {
     </Popover>
   </div>
 </template>
+
+<style>
+.grid__categories {}
+
+button.grid__categories-button {
+  @apply w-full text-left text-lg dark:text-dusky-50 xl:text-2xl font-bold outline-none cursor-pointer pl-4 md:pl-5 pr-2 md:pr-3 py-3 bg-white dark:bg-neutral-900 rounded-xl border-2 border-transparent;
+}
+
+button.grid__categories-button--active {
+  @apply border-sky-600;
+}
+
+.grid__categories-current {
+  @apply flex items-center justify-between;
+}
+
+.grid__categories-title {
+  @apply whitespace-nowrap;
+}
+
+.grid__categories-icon {
+  @apply translate-y-0.5 w-7 stroke-neutral-200 dark:stroke-dusky-700 ml-3;
+}
+
+.grid__categories-button--active .grid__categories-icon {
+  @apply stroke-sky-600 dark:stroke-sky-600;
+}
+
+.grid__categories-dropdown {
+  @apply bg-white dark:bg-neutral-900 rounded-xl shadow overflow-hidden shadow-neutral-300 dark:shadow-black;
+}
+
+.grid__categories-list {
+  @apply block list-none;
+}
+
+.grid__categories-item {}
+
+.grid__categories-link {
+  @apply block py-1.5 px-4 md:text-lg hover:bg-neutral-100 dark:text-dusky-400 dark:hover:bg-neutral-800 dark:hover:text-white transition;
+}
+
+.grid__categories-title {
+  @apply flex items-center whitespace-nowrap;
+}
+
+.grid__categories-counter {
+  @apply inline-flex justify-center items-center ml-2 w-5 h-5 text-[12px] font-semibold text-sky-600 dark:text-sky-400 bg-neutral-200 dark:bg-neutral-800 rounded-full;
+}
+</style>

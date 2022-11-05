@@ -16,7 +16,7 @@ const setLocale = (code: string, cb?: CallbackFunction) => {
 </script>
 
 <template>
-  <Popover class="relative">
+  <Popover class="locale">
     <Float
       placement="bottom-start"
       :offset="{
@@ -33,42 +33,41 @@ const setLocale = (code: string, cb?: CallbackFunction) => {
       leave-from="opacity-100 translate-y-0"
       leave-to="opacity-0 -translate-y-1"
     >
-      <PopoverButton
-        class="flex items-center justify-center font-medium rounded-md py-2 px-3 lg:p-2 lg:text-sm text-neutral-900 dark:text-dusky-100 outline-none cursor-pointer bg-neutral-200 dark:bg-neutral-800"
-      >
+      <PopoverButton class="locale__button">
         <img
           :src="`/images/locale/${messages.code}.svg`"
-          class="w-5 h-5 mr-2.5"
           :alt="messages.title.toString()"
+          class="locale__icon"
         >
         {{ messages.title }}
       </PopoverButton>
       <PopoverPanel
         v-slot="{ close }"
-        class="bg-white dark:bg-neutral-800 rounded-md shadow overflow-hidden shadow-neutral-300 dark:shadow-black"
+        class="locale__dropdown"
       >
-        <ul class="block list-none">
+        <ul class="locale__list">
           <li
             v-for="(item, code) in i18nMessages"
             :key="code"
+            class="locale__item"
+            :class="{
+              'locale__item--active': (code === locale)
+            }"
           >
             <a
               href="#"
-              class="block py-2 px-3 lg:p-2 lg:text-sm hover:bg-neutral-100 dark:text-dusky-400 dark:hover:bg-neutral-700 dark:hover:text-white transition"
+              class="locale__link"
               role="menuitem"
-              :class="code === locale ? 'text-neutral-500 hover:text-neutral-900' : 'text-neutral-900 dark:text-white'"
               @click.prevent="setLocale(code, close)"
             >
-              <div class="flex items-center whitespace-nowrap">
-                <img
-                  :src="`/images/locale/${item.code}.svg`"
-                  :alt="item.title.toString()"
-                  class="h-4 w-4 rounded-full mr-2.5"
-                  aria-hidden="true"
-                >
-                <div>
-                  {{ item.title }}
-                </div>
+              <img
+                :src="`/images/locale/${item.code}.svg`"
+                :alt="item.title.toString()"
+                aria-hidden="true"
+                class="locale__icon"
+              >
+              <div class="locale__title">
+                {{ item.title }}
               </div>
             </a>
           </li>
@@ -77,3 +76,41 @@ const setLocale = (code: string, cb?: CallbackFunction) => {
     </Float>
   </Popover>
 </template>
+
+<style>
+.locale {
+  @apply relative;
+}
+
+button.locale__button {
+  @apply flex items-center justify-center font-medium rounded-md py-2 px-3 lg:p-2 lg:text-sm text-neutral-900 dark:text-dusky-100 outline-none cursor-pointer bg-neutral-200 dark:bg-neutral-800;
+}
+
+.locale__button .locale__icon {
+  @apply w-5 h-5 mr-2.5;
+}
+
+.locale__dropdown {
+  @apply bg-white dark:bg-neutral-800 rounded-md shadow overflow-hidden shadow-neutral-300 dark:shadow-black;
+}
+
+.locale__list {
+  @apply block list-none;
+}
+
+.locale__item {}
+
+.locale__link {
+  @apply flex items-center whitespace-nowrap py-2 px-3 lg:p-2 lg:text-sm hover:bg-neutral-100 dark:text-dusky-400 dark:hover:bg-neutral-700 dark:hover:text-white transition text-neutral-900 dark:text-white;
+}
+
+.locale__item--active .locale__link {
+  @apply text-neutral-500 hover:text-neutral-900;
+}
+
+.locale__dropdown .locale__icon {
+  @apply h-4 w-4 rounded-full mr-2.5;
+}
+
+.locale__title {}
+</style>

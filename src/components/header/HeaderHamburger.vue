@@ -17,7 +17,7 @@ const store = useGlobalStore();
 </script>
 
 <template>
-  <div class="lg:hidden w-16">
+  <div class="header__hamburger">
     <UIHamburger
       :active="props.active"
       :duration="props.duration"
@@ -26,3 +26,9 @@ const store = useGlobalStore();
     />
   </div>
 </template>
+
+<style>
+.header__hamburger {
+  @apply w-16 lg:hidden;
+}
+</style>

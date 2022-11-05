@@ -8,7 +8,7 @@ const { messages } = useLocale();
 
 const store = useGlobalStore();
 
-const facts = computed<Facts>(() => messages.value.facts as Facts);
+const facts = computed<FactsItem>(() => messages.value.facts as FactsItem);
 const items = computed<string[]>(() => (facts.value as any)?.items || []);
 const fact = computed<string>(() => (items.value.length ? items.value[store.factId] : ''));
 </script>
@@ -16,22 +16,22 @@ const fact = computed<string>(() => (items.value.length ? items.value[store.fact
 <template>
   <div
     v-if="items.length"
-    class="facts relative"
+    class="facts"
   >
     <div
       v-if="facts.title"
-      class="flex flex-wrap items-center text-xl sm:text-[3vw] md:text-[2.5vw] lg:text-base font-bold mb-2"
+      class="facts__header"
     >
       <img
-        class="inline w-5 h-5 mr-2"
+        class="facts__icon"
         src="/images/emoji/crazy.png"
       >
-      <span class="inline">{{ facts.title }}</span>
+      <span class="facts__title">{{ facts.title }}</span>
     </div>
-    <div class="min-h-[60px]">
+    <div class="facts__main">
       <a
         href="#"
-        class="block text-sm"
+        class="facts__text"
         @click.prevent="store.randomFact"
       >
         {{ fact }}
@@ -39,3 +39,29 @@ const fact = computed<string>(() => (items.value.length ? items.value[store.fact
     </div>
   </div>
 </template>
+
+<style>
+.facts {
+  @apply relative;
+}
+
+.facts__header {
+  @apply flex flex-wrap items-center text-xl sm:text-[3vw] md:text-[2.5vw] lg:text-base font-bold mb-2;
+}
+
+.facts__icon {
+  @apply inline w-5 h-5 mr-2;
+}
+
+.facts__title {
+  @apply inline;
+}
+
+.facts__main {
+  @apply min-h-[60px];
+}
+
+.facts__text {
+  @apply block text-sm cursor-pointer;
+}
+</style>

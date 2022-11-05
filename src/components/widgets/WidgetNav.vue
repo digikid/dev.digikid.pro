@@ -7,23 +7,33 @@ const props = withDefaults(defineProps<{
 });
 
 const emit = defineEmits<{ (e: 'route', itemId: string, menuId: string): void }>();
+
+const getHref = ({ id }: NavItem) => {
+  if (props.id === 'main') {
+    return (id === 'home') ? '/' : id;
+  }
+
+  return `#${id}`;
+};
 </script>
 
 <template>
   <nav
     v-if="props.items.length"
-    class="nav"
+    :class="['nav', `nav--${props.id}`]"
     role="navigation"
   >
     <div
       v-for="item in props.items"
       :key="item.id"
-      class="block transition duration-[0ms] hover:duration-300 font-extrabold leading-normal text-[8vw] xs:text-[6vw] sm:text-[5vw] lg:text-lg hover:text-coral-500 dark:hover:text-coral-500 mb-1 lg:mb-0"
-      :class="item.active ? 'text-coral-500 dark:text-coral-500' : 'text-neutral-900 dark:text-dusky-300'"
+      class="nav__item"
+      :class="{
+        'is-active': item.active
+      }"
     >
       <a
-        class="cursor-pointer"
-        :href="item.id === 'home' ? '/' : item.id"
+        class="nav__link"
+        :href="getHref(item)"
         @click.prevent="emit('route', item.id, props.id)"
       >
         {{ item.title }}
@@ -31,3 +41,23 @@ const emit = defineEmits<{ (e: 'route', itemId: string, menuId: string): void }>
     </div>
   </nav>
 </template>
+
+<style>
+.nav {}
+
+.nav__item {
+  @apply block leading-normal text-base text-dusky-300 dark:text-dusky-300;
+}
+
+.nav__item.is-active {
+  @apply text-coral-500 dark:text-coral-500 !important;
+}
+
+.nav--main .nav__item {
+  @apply font-extrabold text-[8vw] xs:text-[6vw] sm:text-[5vw] lg:text-lg text-neutral-900;
+}
+
+.nav__link {
+  @apply cursor-pointer;
+}
+</style>

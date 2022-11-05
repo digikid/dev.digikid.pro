@@ -14,7 +14,7 @@ import GridCategories from '@components/grid/GridCategories.vue';
 import GridFilters from '@components/grid/GridFilters.vue';
 import GridSearch from '@components/grid/GridSearch.vue';
 import UICheckbox from '@components/ui/UICheckbox.vue';
-import ProjectItem from '@components/project/ProjectItem.vue';
+import ProjectsItem from '@components/projects/ProjectsItem.vue';
 
 const dataStore = useDataStore();
 
@@ -27,7 +27,7 @@ const query = ref<string>('');
 
 const $filters = ref<HTMLElement>();
 
-const { items } = useData<ProjectData, ProjectLocale>('projects', true);
+const { items } = useData<ProjectsData, ProjectsLocale>('projects', true);
 
 const data = computed<GridData>(() => items.value.reduce((acc, {
   id, date, title, categories, stack,
@@ -126,10 +126,6 @@ const onFiltersUpdate = (id: string) => {
   }
 };
 
-const onSortingUpdate = (value: boolean) => {
-  isSortingActive.value = value;
-};
-
 const onFiltersToggle = (value: boolean) => {
   if (mediaMin(768) || !$filters.value) return;
 
@@ -165,9 +161,9 @@ const onSearchChange = (value: string) => {
   >
     <div
       v-if="items.length"
-      class="portfolio"
+      class="projects grid"
     >
-      <div class="portfolio-controls grid gap-3 md:gap-6 md:grid-cols-2 2xl:grid-cols-3">
+      <div class="projects__controls">
         <GridCategories
           :items="categories"
           @update="onCategoriesUpdate"
@@ -176,15 +172,9 @@ const onSearchChange = (value: string) => {
           :placeholder="t('project.search')"
           @update="onSearchChange"
         />
-        <!--        <UICheckbox-->
-        <!--          class="flex items-center 2xl:justify-end mt-2 md:mt-0"-->
-        <!--          :checked="isSortingActive"-->
-        <!--          :label="t('controls.sort')"-->
-        <!--          @update="onSortingUpdate"-->
-        <!--        />-->
       </div>
-      <div class="portfolio-filters mt-4 md:mt-7">
-        <div class="mb-4 md:hidden">
+      <div class="projects__filters">
+        <div class="projects__filters-toggle">
           <UICheckbox
             :label="t('controls.filters')"
             @update="onFiltersToggle"
@@ -192,7 +182,7 @@ const onSearchChange = (value: string) => {
         </div>
         <div
           ref="$filters"
-          class="hidden md:block"
+          class="projects__filters-main"
         >
           <GridFilters
             :items="filters"
@@ -200,7 +190,7 @@ const onSearchChange = (value: string) => {
           />
         </div>
       </div>
-      <div class="mt-8">
+      <div class="projects__main">
         <GridList
           :categories="activeCategories"
           :filters="activeFilters"
@@ -215,10 +205,34 @@ const onSearchChange = (value: string) => {
             :data-id="item.id"
             rounded
           >
-            <ProjectItem :project="item" />
+            <ProjectsItem :project="item" />
           </GridItem>
         </GridList>
       </div>
     </div>
   </UISection>
 </template>
+
+<style>
+.projects {}
+
+.projects__controls {
+  @apply grid gap-3 md:gap-6 md:grid-cols-2 2xl:grid-cols-3;
+}
+
+.projects__filters {
+  @apply mt-4 md:mt-7;
+}
+
+.projects__filters-toggle {
+  @apply mb-4 md:hidden;
+}
+
+.projects__filters-main {
+  @apply hidden md:block;
+}
+
+.projects__main {
+  @apply mt-8;
+}
+</style>

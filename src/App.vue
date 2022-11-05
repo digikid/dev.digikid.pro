@@ -56,7 +56,7 @@ const showGreetings = (clear = false) => {
 
 onMounted(() => {
   document.fonts.ready.then(() => {
-    document.querySelector('#app')?.classList.add('fade-in');
+    document.querySelector('#app')?.classList.add('app--ready');
   });
 });
 
@@ -111,7 +111,29 @@ watch(() => locale.value, (value, prev) => {
 </script>
 
 <template>
-  <div class="wrapper w-full h-full">
+  <div class="wrapper">
     <component :is="layout" />
   </div>
 </template>
+
+<style>
+html, body, .app, .wrapper {
+  @apply w-full h-full;
+}
+
+html, body {
+  @apply overflow-hidden;
+}
+
+body {
+  @apply bg-neutral-200 dark:bg-black text-neutral-900 dark:text-dusky-100;
+}
+
+.app {
+  @apply overflow-auto no-scrollbar opacity-0;
+}
+
+.app--ready {
+  @apply fade-in;
+}
+</style>
