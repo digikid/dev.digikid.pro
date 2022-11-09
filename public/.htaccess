@@ -5,6 +5,7 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
+  RewriteRule ^19 https://19.digikid.ru [R=301,L]
   RewriteRule ^github https://github.com/digikid [R=301,L]
   RewriteRule ^telegram https://t.me/digikid [R=301,L]
   RewriteRule ^instagram https://instagram.com/sasha.dovlatov [R=301,L]
