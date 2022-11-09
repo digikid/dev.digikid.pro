@@ -74,11 +74,11 @@ const isMain = (item: EducationItem) => (item.id === 'main');
 }
 
 .education__wrapper {
-  @apply relative flex flex-col justify-end w-full h-full overflow-hidden bg-white dark:bg-neutral-900 rounded-2xl py-4 px-5 transition-transform duration-300 hover:scale-[97%];
+  @apply relative flex flex-col justify-end w-full h-full overflow-hidden bg-white dark:bg-neutral-900 rounded-2xl transition-transform duration-300 hover:scale-[97%] py-4 px-5 z-[1];
 }
 
 .education__date {
-  @apply absolute top-0 right-0 text-white bg-gradient-to-r px-3 py-1.5 rounded-bl-2xl from-fuchsia-600 to-purple-600;
+  @apply block absolute top-0 right-0 text-white bg-gradient-to-r from-fuchsia-600 to-purple-600 rounded-bl-2xl px-3 py-1.5;
 }
 
 .education__item--main .education__date {
