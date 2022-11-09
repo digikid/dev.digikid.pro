@@ -54,7 +54,7 @@ const getHref = ({ id }: NavItem) => {
 }
 
 .nav--main .nav__item {
-  @apply font-extrabold text-[8vw] xs:text-[6vw] sm:text-[5vw] lg:text-lg text-neutral-900;
+  @apply font-extrabold text-[8vw] xs:text-[6vw] sm:text-[5vw] lg:text-lg text-neutral-900 dark:text-neutral-400;
 }
 
 .nav__link {
