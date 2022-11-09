@@ -52,14 +52,17 @@ const links = computed<LinkItem[]>(() => (['repo', 'demo', 'url'] as const).redu
         </ProjectsWidget>
       </div>
       <div
-        v-if="project.finish"
+        v-if="props.project.finish"
         class="projects__finish"
       >
         <ProjectsWidget :title="t('project.finish')">
           {{ formatDate(props.project.finish, code) }}
         </ProjectsWidget>
       </div>
-      <div class="projects__version">
+      <div
+        v-if="props.project.repo && !props.project.finish"
+        class="projects__version"
+      >
         <ProjectsWidget :title="t('project.version')">
           {{ props.project.version }}
         </ProjectsWidget>
