@@ -69,12 +69,13 @@ router.afterEach((to, from) => {
   updateTitle(`${title} — ${t('main.title')}`, description);
 
   if (from.name !== to.name) {
-    const options = from.name ? {
-      title,
-      referer: from.path,
-    } : {
+    const options: Record<string, string> = {
       title,
     };
+
+    if (from.name) {
+      options.referer = from.path;
+    }
 
     metrika.hit(to.path, options);
   }
