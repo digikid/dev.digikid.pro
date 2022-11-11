@@ -5,7 +5,7 @@ import UIPage from '@components/ui/UIPage.vue';
 <template>
   <UIPage>
     <img
-      src="https://media.giphy.com/media/g01ZnwAUvutuK8GIQn/giphy-downsized.gif"
+      src="/images/404.gif"
       alt="404"
     >
   </UIPage>
