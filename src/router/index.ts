@@ -13,6 +13,8 @@ import Tools from '@pages/Tools.vue';
 import Contacts from '@pages/Contacts.vue';
 import NotFound from '@pages/NotFound.vue';
 
+const { BASE_URL } = import.meta.env;
+
 const routes: RouteRecordRaw[] = [{
   path: '/',
   name: 'home',
@@ -41,7 +43,7 @@ const routes: RouteRecordRaw[] = [{
 
 const router = createRouter({
   routes,
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(BASE_URL),
 });
 
 router.beforeEach((to, from, next) => {
