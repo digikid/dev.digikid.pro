@@ -72,7 +72,7 @@
     "title": "Inspiration",
     "text": "Regularly updated collection of websites and design layouts for inspiration"
   }],
-  "now": "present",
+  "now": "till now",
   "filters": "Filters",
   "location": "Almaty, Republic of Kazakhstan",
   "hard-skills": "Hard Skills",
@@ -113,7 +113,7 @@
     "id": "freelance",
     "title": "Freelance",
     "subtitle": "Front-end Developer",
-    "text": "Websites and SPA development for private persons and business clients."
+    "text": "Websites and SPA development for private persons and business clients. Mentoring and training for junior+ developers."
   }],
   "education": [{
     "id": "main",
