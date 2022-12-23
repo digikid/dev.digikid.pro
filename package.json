@@ -4,7 +4,7 @@
   "type": "module",
   "author": "Alexander Dovlatov <dev@digkid.ru> (https://dev.digikid.ru/)",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --logLevel error",
     "build": "vue-tsc --noEmit && vite build",
     "deploy": "vue-tsc --noEmit && vite build && ts-node deploy.ts",
     "preview": "vite preview"
