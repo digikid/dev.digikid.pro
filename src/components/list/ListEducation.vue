@@ -86,11 +86,11 @@ const isMain = (item: EducationItem) => (item.id === 'main');
 }
 
 .education__title {
-  @apply font-black leading-snug lg:leading-tight sm:text-[3.25vw] md:text-[2.5vw] lg:text-[1.75vw] xl:text-[1.5vw] pr-12 text-[5.25vw] 2xl:text-[1.25vw];
+  @apply font-black leading-snug lg:leading-tight pr-12 text-[5.25vw] sm:text-[3.25vw] md:text-[2.5vw] lg:text-[1.75vw] xl:text-[1.5vw] 2xl:text-[1.25vw];
 }
 
 .education__item--main .education__title {
-  @apply text-[7.5vw] 2xl:text-[1.75vw];
+  @apply leading-tight text-[7vw] sm:text-[3.25vw] md:text-[2.5vw] xl:text-[2vw] 2xl:text-[1.75vw];
 }
 
 .education__text {
