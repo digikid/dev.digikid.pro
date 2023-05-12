@@ -19,5 +19,11 @@
   "id": "freelance",
   "active": true,
   "date": 1647370800000,
-  "finish": -1
+  "finish": 1669147200000
+}, {
+  "id": "x24",
+  "active": true,
+  "date": 1669579200000,
+  "finish": -1,
+  "url": "https://x24.cloud"
 }]

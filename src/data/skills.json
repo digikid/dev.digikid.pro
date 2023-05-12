@@ -95,7 +95,7 @@
   "active": true,
   "categories": ["hard"]
 }, {
-  "id": "pixel-perfect",
+  "id": "webstorm",
   "active": true,
   "categories": ["hard"]
 }, {
@@ -103,11 +103,15 @@
   "active": true,
   "categories": ["hard"]
 }, {
+  "id": "photoshop",
+  "active": true,
+  "categories": ["hard"]
+}, {
   "id": "sketch",
   "active": true,
   "categories": ["hard"]
 }, {
-  "id": "photoshop",
+  "id": "trello",
   "active": true,
   "categories": ["hard"]
 }, {

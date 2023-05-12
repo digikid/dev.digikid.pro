@@ -114,6 +114,11 @@
     "title": "Фриланс",
     "subtitle": "Front-end разработчик",
     "text": "Индивидуальная разработка сайтов и SPA-приложений для частных лиц и бизнеса. Обучение разработчиков уровня junior+ в формате наставничества (менторинг)."
+  }, {
+    "id": "x24",
+    "title": "X24",
+    "subtitle": "Front-end разработчик",
+    "text": "Разработка клиентской части облачной ERP-системы для управления производством. Участие в командной разработке продукта, внедрение нового функционала и поддержка текущего. Анализ легаси-кода на предмет улучшений, проработка архитектурных решений и рефакторинг."
   }],
   "education": [{
     "id": "main",
@@ -253,17 +258,20 @@
     "id": "firebase",
     "title": "Firebase"
   }, {
-    "id": "pixel-perfect",
-    "title": "Pixel Perfect"
+    "id": "webstorm",
+    "title": "WebStorm"
   }, {
     "id": "figma",
     "title": "Figma"
   }, {
+    "id": "photoshop",
+    "title": "Photoshop"
+  }, {
     "id": "sketch",
     "title": "Sketch"
   }, {
-    "id": "photoshop",
-    "title": "Photoshop"
+    "id": "trello",
+    "title": "Trello"
   }, {
     "id": "macos",
     "title": "macOS"

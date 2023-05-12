@@ -103,11 +103,11 @@ provide('activeId', activeId);
 }
 
 .tabs__link {
-  @apply inline-flex items-center whitespace-nowrap font-bold text-center text-gray-900 text-xl bg-[#F7BE38] transition-colors duration-[0ms] hover:duration-300 focus:outline-none rounded-lg px-5 py-2.5 bg-neutral-300 dark:text-neutral-100 dark:bg-neutral-900;
+  @apply inline-flex items-center whitespace-nowrap font-bold text-center text-gray-900 text-xl bg-[#F7BE38] transition-colors duration-[0ms] hover:duration-300 focus:outline-none rounded-lg px-5 py-2.5 bg-neutral-300 dark:text-neutral-300 dark:bg-neutral-900;
 }
 
 .tabs__link--active {
-  @apply bg-[#F7BE38] text-black;
+  @apply bg-[#F7BE38] dark:bg-[#F7BE38] text-black dark:text-black;
 }
 
 .tabs__icon {

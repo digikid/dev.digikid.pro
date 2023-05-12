@@ -114,6 +114,11 @@
     "title": "Freelance",
     "subtitle": "Front-end Developer",
     "text": "Websites and SPA development for private persons and business clients. Mentoring and training for junior+ developers."
+  }, {
+    "id": "x24",
+    "title": "X24",
+    "subtitle": "Front-end Developer",
+    "text": "Development of the client part for a cloud-based ERP production management system. Team product development, implementation of new functionality and technical support. Legacy code analysis, architectural decisions and refactoring."
   }],
   "education": [{
     "id": "main",
@@ -253,17 +258,20 @@
     "id": "firebase",
     "title": "Firebase"
   }, {
-    "id": "pixel-perfect",
-    "title": "Pixel Perfect"
+    "id": "webstorm",
+    "title": "WebStorm"
   }, {
     "id": "figma",
     "title": "Figma"
   }, {
+    "id": "photoshop",
+    "title": "Photoshop"
+  }, {
     "id": "sketch",
     "title": "Sketch"
   }, {
-    "id": "photoshop",
-    "title": "Photoshop"
+    "id": "trello",
+    "title": "Trello"
   }, {
     "id": "macos",
     "title": "macOS"
