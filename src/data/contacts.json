@@ -4,8 +4,8 @@
   "items": [{
     "id": "email",
     "active": true,
-    "title": "dev@digikid.ru",
-    "url": "mailto:dev@digikid.ru"
+    "title": "dev@digikid.pro",
+    "url": "mailto:dev@digikid.pro"
   }, {
     "id": "telegram",
     "active": true,

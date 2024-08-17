@@ -152,7 +152,7 @@
     "gulp"
   ],
   "logo": "/images/projects/radio-vanya.svg",
-  "demo": "https://demo.digikid.ru/radio-vanya"
+  "demo": "https://demo.digikid.pro/radio-vanya"
 }, {
   "id": "microfin",
   "active": true,
@@ -189,7 +189,7 @@
     "git"
   ],
   "logo": "/images/projects/recruitment-service.svg",
-  "demo": "https://demo.digikid.ru/recruitment-service"
+  "demo": "https://demo.digikid.pro/recruitment-service"
 }, {
   "id": "rus63",
   "active": true,
@@ -206,7 +206,7 @@
     "gulp"
   ],
   "logo": "/images/projects/rus63.svg",
-  "demo": "https://demo.digikid.ru/rus63"
+  "demo": "https://demo.digikid.pro/rus63"
 }, {
   "id": "stekko",
   "active": true,
@@ -224,7 +224,7 @@
     "git"
   ],
   "logo": "/images/projects/stekko.svg",
-  "demo": "https://demo.digikid.ru/stekko",
+  "demo": "https://demo.digikid.pro/stekko",
   "url": "https://stekko.ru"
 }, {
   "id": "get-finance",
@@ -242,7 +242,7 @@
     "git"
   ],
   "logo": "/images/projects/get-finance.svg",
-  "demo": "https://demo.digikid.ru/get-finance",
+  "demo": "https://demo.digikid.pro/get-finance",
   "url": "https://getfinance.ru"
 }, {
   "id": "patients-transfer",
@@ -261,7 +261,7 @@
     "git"
   ],
   "logo": "/images/projects/patients-transfer.svg",
-  "demo": "https://demo.digikid.ru/patients-transfer"
+  "demo": "https://demo.digikid.pro/patients-transfer"
 }, {
   "id": "warm-talks",
   "active": true,
@@ -279,7 +279,7 @@
     "git"
   ],
   "logo": "/images/projects/warm-talks.svg",
-  "demo": "https://demo.digikid.ru/warm-talks",
+  "demo": "https://demo.digikid.pro/warm-talks",
   "url": "https://teplye-besedy.ru"
 }, {
   "id": "hundred-promo",
@@ -298,7 +298,7 @@
     "git"
   ],
   "logo": "/images/projects/hundred-promo.svg",
-  "demo": "https://demo.digikid.ru/hundred-promo"
+  "demo": "https://demo.digikid.pro/hundred-promo"
 }, {
   "id": "lunch-delivery",
   "active": true,
@@ -316,7 +316,7 @@
     "git"
   ],
   "logo": "/images/projects/lunch-delivery.svg",
-  "demo": "https://demo.digikid.ru/lunch-delivery"
+  "demo": "https://demo.digikid.pro/lunch-delivery"
 }, {
   "id": "boarding-houses",
   "active": true,
@@ -334,7 +334,7 @@
     "git"
   ],
   "logo": "/images/projects/boarding-houses.svg",
-  "demo": "https://demo.digikid.ru/boarding-houses",
+  "demo": "https://demo.digikid.pro/boarding-houses",
   "url": "https://vse-pansiony.ru"
 }, {
   "id": "kkz",
@@ -353,7 +353,7 @@
     "git"
   ],
   "logo": "/images/projects/kkz.svg",
-  "demo": "https://demo.digikid.ru/kkz",
+  "demo": "https://demo.digikid.pro/kkz",
   "url": "https://kkz.ru"
 }, {
   "id": "caring-houses",
@@ -372,7 +372,7 @@
     "git"
   ],
   "logo": "/images/projects/caring-houses.svg",
-  "demo": "https://demo.digikid.ru/caring-houses",
+  "demo": "https://demo.digikid.pro/caring-houses",
   "url": "https://pansionat-zabota24.ru"
 }, {
   "id": "zagorizont",
@@ -391,7 +391,7 @@
     "git"
   ],
   "logo": "/images/projects/zagorizont.svg",
-  "demo": "https://demo.digikid.ru/zagorizont",
+  "demo": "https://demo.digikid.pro/zagorizont",
   "url": "https://zagorizont.me"
 }, {
   "id": "volga-coffee-fest",
@@ -505,7 +505,7 @@
   "demo": "https://mosaic-coffee.web.app",
   "repo": "https://github.com/digikid/mosaic-coffee"
 }, {
-  "id": "dev.digikid.ru",
+  "id": "dev.digikid.pro",
   "active": true,
   "date": 1647201600000,
   "categories": [
@@ -521,8 +521,8 @@
     "git"
   ],
   "logo": "/images/logo.svg",
-  "url": "https://dev.digikid.ru",
-  "repo": "https://github.com/digikid/dev.digikid.ru"
+  "url": "https://dev.digikid.pro",
+  "repo": "https://github.com/digikid/dev.digikid.pro"
 }, {
   "id": "vite-vue-project",
   "active": true,

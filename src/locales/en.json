@@ -8,8 +8,8 @@
     "greetings": [
       "Hey there, curious! 👋",
       "You're probably wondering how cool this site is.\n",
-      "I can do even better, so if your company is currently looking for someone with my kind of skills, feel free to hit me up on https://t.me/digikid or via dev@digikid.ru. ✨\n",
-      "Source code that powers my site is publicly hosted on:\nhttps://github.com/digikid/dev.digikid.ru\n",
+      "I can do even better, so if your company is currently looking for someone with my kind of skills, feel free to hit me up on https://t.me/digikid or via dev@digikid.pro. ✨\n",
+      "Source code that powers my site is publicly hosted on:\nhttps://github.com/digikid/dev.digikid.pro\n",
       "That's a good place to start for sure. 🤞"
     ]
   },
@@ -885,8 +885,8 @@
     "title": "MS Cleaner",
     "description": "MS Office / HTML cleaning tool"
   }, {
-    "id": "dev.digikid.ru",
-    "title": "dev.digikid.ru",
+    "id": "dev.digikid.pro",
+    "title": "dev.digikid.pro",
     "description": "My personal portfolio page where you are now"
   }]
 }

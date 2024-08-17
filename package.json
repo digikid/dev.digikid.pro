@@ -1,8 +1,8 @@
 {
-  "name": "dev.digikid.ru",
+  "name": "dev.digikid.pro",
   "version": "1.0.0",
   "type": "module",
-  "author": "Alexander Dovlatov <dev@digkid.ru> (https://dev.digikid.ru/)",
+  "author": "Alexander Dovlatov <dev@digkid.ru> (https://dev.digikid.pro/)",
   "scripts": {
     "dev": "vite --logLevel error",
     "build": "vue-tsc --noEmit && vite build",
