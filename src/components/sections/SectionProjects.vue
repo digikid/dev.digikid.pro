@@ -6,6 +6,7 @@ import { useLocale } from '@hooks/locale';
 import { useData } from '@hooks/data';
 
 import { mediaMin } from '@utils/dom';
+import { isISODate } from '@utils/date';
 
 import UISection from '@components/ui/UISection.vue';
 import GridList from '@components/grid/GridList.vue';
@@ -29,13 +30,15 @@ const $filters = ref<HTMLElement>();
 
 const { items } = useData<ProjectsData, ProjectsLocale>('projects', true);
 
-const data = computed<GridData>(() => items.value.reduce((acc, {
-  id, date, title, categories, stack,
+const data = computed<GridData>(() => items.value.filter(({ start }) => {
+  return isISODate(start);
+}).reduce((acc, {
+  id, start, title, categories, stack,
 }) => {
   acc[id] = {
     categories,
     filters: stack,
-    sort: date,
+    sort: new Date(start).getTime(),
     title,
   };
 

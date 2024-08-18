@@ -1,19 +1,33 @@
 <script setup lang="ts">
+import { computed } from 'vue';
+
 import ProjectsHeader from '@components/projects/ProjectsHeader.vue';
 import ProjectsFooter from '@components/projects/ProjectsFooter.vue';
 
 const props = defineProps<{
   project: ProjectsItem;
 }>();
+
+const className = computed(() => {
+  const classNames: string[] = [];
+
+  if (props.project.large) {
+    classNames.push('projects__item--large');
+  }
+
+  if (props.project.className) {
+    classNames.push(props.project.className);
+  }
+
+  return classNames.join(' ');
+});
 </script>
 
 <template>
   <div
     v-if="props.project"
     class="projects__item"
-    :class="{
-      'projects__item--large': props.project.large
-    }"
+    :class="className"
   >
     <ProjectsHeader :project="props.project" />
     <ProjectsFooter :project="props.project" />
@@ -27,5 +41,11 @@ const props = defineProps<{
 
 .projects__item--large {
   @apply md:text-center;
+
+  .projects__logo {
+    img {
+      @apply w-[80%];
+    }
+  }
 }
 </style>

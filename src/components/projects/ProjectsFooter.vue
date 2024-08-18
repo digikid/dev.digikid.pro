@@ -41,14 +41,18 @@ const links = computed<LinkItem[]>(() => (['repo', 'demo', 'url'] as const).redu
 
   return acc;
 }, [] as LinkItem[]));
+
+const isCompleted = computed<boolean>(() => {
+  return !!props.project.finish || props.project.categories.includes('team');
+});
 </script>
 
 <template>
   <div class="projects__footer">
     <div class="projects__info">
       <div class="projects__date">
-        <ProjectsWidget :title="t(`project.${props.project.finish ? 'start' : 'date'}`)">
-          {{ formatDate(props.project.date, code) }}
+        <ProjectsWidget :title="t(`project.${isCompleted ? 'start' : 'date'}`)">
+          {{ formatDate(props.project.start, code) }}
         </ProjectsWidget>
       </div>
       <div
@@ -89,7 +93,7 @@ const links = computed<LinkItem[]>(() => (['repo', 'demo', 'url'] as const).redu
 
 <style>
 .projects__footer {
-  @apply relative clear-both mt-3 px-4 py-5 md:px-6 md:py-5 bg-neutral-100 dark:bg-dusky-900 rounded-t-xl;
+  @apply relative clear-both px-4 py-5 md:px-6 md:py-5 bg-neutral-100 dark:bg-dusky-900 rounded-t-xl;
 }
 
 .projects__info {

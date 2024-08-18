@@ -49,6 +49,8 @@
         "no-undef": "off",
         "no-cond-assign": "off",
         "class-methods-use-this": "off",
+        "no-empty": "off",
+        "operator-linebreak": "off",
         "@typescript-eslint/no-shadow": "off"
       }
     },

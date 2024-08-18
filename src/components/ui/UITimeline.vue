@@ -4,6 +4,7 @@ import { getHostname } from '@utils/url';
 import IconPointer from '@components/icons/IconPointer.vue';
 import IconUser from '@components/icons/IconUser.vue';
 import IconTime from '@components/icons/IconTime.vue';
+import IconClock from '@components/icons/IconClock.vue';
 
 const props = withDefaults(defineProps<{
   items?: TimelineItem[];
@@ -17,9 +18,7 @@ const props = withDefaults(defineProps<{
     v-if="props.items.length"
     class="timeline"
   >
-    <ol
-      class="timeline__list"
-    >
+    <ol class="timeline__list">
       <li
         v-for="item in props.items"
         :key="item.id"
@@ -41,12 +40,6 @@ const props = withDefaults(defineProps<{
             </span>
           </h3>
           <div class="timeline__info">
-            <div class="timeline__date">
-              <IconTime class="timeline__icon timeline__icon--time" />
-              <div class="timeline__text">
-                <time v-if="item.date">{{ item.date }}</time><span v-if="item.finish"> — <time>{{ item.finish }}</time></span>
-              </div>
-            </div>
             <div
               v-if="item.subtitle"
               class="timeline__subtitle"
@@ -54,6 +47,21 @@ const props = withDefaults(defineProps<{
               <IconUser class="timeline__icon timeline__icon--user" />
               <div class="timeline__text">
                 {{ item.subtitle }}
+              </div>
+            </div>
+            <div class="timeline__date">
+              <IconTime class="timeline__icon timeline__icon--time" />
+              <div class="timeline__text">
+                <time v-if="item.date">{{ item.date }}</time><span v-if="item.finish"> — <time>{{ item.finish }}</time></span>
+              </div>
+            </div>
+            <div
+              v-if="item.period"
+              class="timeline__subtitle"
+            >
+              <IconClock class="timeline__icon timeline__icon--clock" />
+              <div class="timeline__text">
+                {{ item.period }}
               </div>
             </div>
           </div>
@@ -133,7 +141,8 @@ const props = withDefaults(defineProps<{
 }
 
 .timeline__icon--time,
-.timeline__icon--user {
+.timeline__icon--user,
+.timeline__icon--clock {
   @apply top-1 self-start inline-block w-4 h-4 mr-1.5;
 }
 
@@ -146,6 +155,6 @@ const props = withDefaults(defineProps<{
 }
 
 .timeline__subtitle {
-  @apply w-full sm:w-auto flex items-center mb-1;
+  @apply w-full sm:w-auto flex items-center sm:mr-6 mb-1;
 }
 </style>

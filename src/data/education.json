@@ -1,76 +1,76 @@
 [{
   "id": "main",
   "active": true,
-  "date": 1338490800000,
+  "start": "2012-05-31",
   "url": "https://samgtu.ru"
 }, {
   "id": "udemy-pro-react-redux",
   "active": true,
-  "date": 1559847600000,
+  "start": "2019-06-06",
   "url": "https://www.udemy.com/course/pro-react-redux"
 }, {
   "id": "udemy-react-complete-guide",
   "active": true,
-  "date": 1584730800000,
+  "start": "2020-03-20",
   "url": "https://www.udemy.com/course/react-2020-complete-guide"
 }, {
   "id": "result-school-js-excel",
   "active": true,
-  "date": 1595012400000,
+  "start": "2020-07-17",
   "url": "https://vladilen.ru/excel"
 }, {
   "id": "tocode-webpack-guide",
   "active": true,
-  "date": 1598036400000,
+  "start": "2020-08-21",
   "url": "https://youtube.com/playlist?list=PLkCrmfIT6LBQWN02hNj6r1daz7965GxsV"
 }, {
   "id": "tocode-vue-2",
   "active": true,
-  "date": 1601665200000,
+  "start": "2020-10-02",
   "url": "https://tocode.ru/courses/vuejs-s-nylya-do-pro"
 }, {
   "id": "result-school-vue",
   "active": true,
-  "date": 1612638000000,
+  "start": "2021-02-06",
   "url": "https://vladilen.ru/vue"
 }, {
   "id": "js-ninja-vue-free",
   "active": true,
-  "date": 1620759600000,
+  "start": "2021-05-11",
   "url": "https://www.youtube.com/playlist?list=PLvTBThJr861yMBhpKafII3HZLAYujuNWw"
 }, {
   "id": "tocode-vue-3",
   "active": true,
-  "date": 1628535600000,
+  "start": "2021-08-09",
   "url": "https://tocode.ru/courses/vuejs-3-s-nulya-do-rezultata"
 }, {
   "id": "result-school-docker",
   "active": true,
-  "date": 1637694000000,
+  "start": "2021-11-23",
   "url": "https://vladilen.ru/docker"
 }, {
   "id": "lavrik-vue-advanced",
   "active": true,
-  "date": 1638730800000,
+  "start": "2021-12-05",
   "url": "https://js.dmitrylavrik.ru/vue-advanced"
 }, {
   "id": "js-ninja-vue-testing",
   "active": true,
-  "date": 1642100400000,
+  "start": "2022-06-05",
   "url": "https://javascript.ninja/workshops/vue-testing"
 }, {
   "id": "udemy-typescript-bootcamp",
   "active": true,
-  "date": 1645642800000,
+  "start": "2022-02-23",
   "url": "https://www.udemy.com/course/typescript-bootcamp"
 }, {
   "id": "udemy-typescript-full",
   "active": true,
-  "date": 1645988400000,
+  "start": "2022-02-27",
   "url": "https://www.udemy.com/course/typescript-full"
 }, {
   "id": "vuemastery-typescript-friendly-vue3",
   "active": true,
-  "date": 1654455600000,
+  "start": "2022-06-05",
   "url": "https://www.vuemastery.com/courses/typescript-friendly-vue3"
 }]

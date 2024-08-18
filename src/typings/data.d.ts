@@ -4,7 +4,8 @@ type BaseData = {
 };
 
 type ProjectsData = BaseData & {
-  date: number;
+  start: string;
+  finish?: string;
   categories: string[];
   stack: string[];
   repo: string;
@@ -12,9 +13,9 @@ type ProjectsData = BaseData & {
   url?: string;
   repo?: string;
   demo?: string;
-  finish?: number;
   logo?: string;
   large?: boolean;
+  className?: string;
 };
 
 type ProjectsLocale = {
@@ -26,7 +27,7 @@ type ProjectsLocale = {
 type ProjectsItem = ProjectsData & ProjectsLocale;
 
 type EducationData = BaseData & {
-  date: number;
+  start: string;
   url?: string;
 };
 
@@ -38,8 +39,8 @@ type EducationLocale = {
 type EducationItem = EducationData & EducationLocale;
 
 type ExperienceData = BaseData & {
-  date: number;
-  finish: number;
+  start: string;
+  finish?: string;
   url?: string;
 };
 

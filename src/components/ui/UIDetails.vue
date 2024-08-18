@@ -21,7 +21,7 @@ const props = withDefaults(defineProps<{
   >
     <Popover class="details__popover">
       <Float
-        placement="bottom-start"
+        placement="bottom"
         :offset="{
           mainAxis: 15
         }"
@@ -66,7 +66,7 @@ const props = withDefaults(defineProps<{
 .details {}
 
 .details__button {
-  @apply inline-flex items-center text-sm font-semibold transition-colors text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-100 border-transparent focus:border-transparent focus:ring-0 focus:outline-none;
+  @apply inline-flex items-center text-sm font-semibold transition-colors text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-100 border-transparent focus:border-transparent focus:ring-0 focus:outline-none;
 }
 
 .details__title {

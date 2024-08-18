@@ -26,6 +26,7 @@ type TimelineItem = {
   id: string;
   date: string;
   finish?: string;
+  period?: string;
   title: string;
   subtitle?: string;
   label?: string;

@@ -59,6 +59,8 @@ const init = (el: HTMLElement) => {
 
 const destroy = () => grid.value?.destroy();
 
+const refresh = () => grid.value?.refreshItems()?.layout();
+
 onMounted(() => {
   if (grid.value) {
     destroy();
@@ -67,9 +69,9 @@ onMounted(() => {
   const container = $grid.value;
 
   if (container instanceof HTMLElement) {
-    imagesLoaded(container, () => {
-      init(container);
-    });
+    init(container);
+
+    imagesLoaded(container, refresh);
   }
 });
 

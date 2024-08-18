@@ -25,15 +25,21 @@ export const useDataStore = defineStore('data', {
   }),
   actions: {
     async loadVersions() {
+      if (!config.prod) {
+        return;
+      }
+
       try {
         this.projects = await Promise.all(this.projects.map(async (item) => {
           const { id, repo } = item;
 
-          if (repo && repo.includes('github') && config.prod) {
+          if (repo && repo.includes('github')) {
             const response = await fetch(`https://raw.githubusercontent.com/digikid/${id}/main/package.json`);
 
             if (response.ok) {
               const { version } = await response.json();
+
+              console.log(id, repo, version);
 
               if (version) {
                 return ({
@@ -46,11 +52,7 @@ export const useDataStore = defineStore('data', {
 
           return item;
         }));
-      } catch (e) {
-        if (config.dev && e instanceof Error) {
-          console.log(e.message);
-        }
-      }
+      } catch (e) {}
     },
   },
 });

@@ -15,9 +15,7 @@ const props = withDefaults(defineProps<{
     }]"
   >
     <div class="grid__item-outer">
-      <div
-        class="grid__item-inner"
-      >
+      <div class="grid__item-inner">
         <slot />
       </div>
     </div>

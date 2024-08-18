@@ -55,6 +55,10 @@
   "active": true,
   "title": "Bootstrap"
 }, {
+  "id": "element-ui",
+  "active": true,
+  "title": "ElementUI"
+}, {
   "id": "jquery",
   "active": true,
   "title": "jQuery"

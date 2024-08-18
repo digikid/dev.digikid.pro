@@ -1,8 +1,8 @@
 [{
   "id": "fond",
   "active": true,
-  "date": 1415563200000,
-  "finish": 1471118400000,
+  "start": "2014-11-10",
+  "finish": "2016-08-13",
   "categories": [
     "support"
   ],
@@ -18,8 +18,8 @@
 }, {
   "id": "lunettes",
   "active": true,
-  "date": 1412884800000,
-  "finish": 1471118400000,
+  "start": "2014-10-09",
+  "finish": "2016-08-13",
   "categories": [
     "support"
   ],
@@ -35,7 +35,7 @@
 }, {
   "id": "megamir",
   "active": true,
-  "date": 1459972800000,
+  "start": "2016-04-06",
   "categories": [
     "sites",
     "support"
@@ -52,7 +52,7 @@
 }, {
   "id": "sj-collagen",
   "active": true,
-  "date": 1473192000000,
+  "start": "2016-09-06",
   "categories": [
     "sites",
     "support"
@@ -69,7 +69,7 @@
 }, {
   "id": "mosaic-coffee-shop",
   "active": true,
-  "date": 1478721600000,
+  "start": "2016-11-09",
   "categories": [
     "sites",
     "support"
@@ -86,7 +86,7 @@
 }, {
   "id": "npo-garant",
   "active": true,
-  "date": 1481659200000,
+  "start": "2016-12-13",
   "categories": [
     "sites",
     "support"
@@ -103,7 +103,7 @@
 }, {
   "id": "cy-19",
   "active": true,
-  "date": 1489089600000,
+  "start": "2017-03-09",
   "categories": [
     "sites",
     "support"
@@ -121,7 +121,7 @@
 }, {
   "id": "lbb",
   "active": true,
-  "date": 1499025600000,
+  "start": "2017-07-02",
   "categories": [
     "sites",
     "support"
@@ -139,7 +139,7 @@
 }, {
   "id": "radio-vanya",
   "active": true,
-  "date": 1528228800000,
+  "start": "2018-06-05",
   "categories": [
     "html"
   ],
@@ -156,7 +156,7 @@
 }, {
   "id": "microfin",
   "active": true,
-  "date": 1566244800000,
+  "start": "2019-08-19",
   "categories": [
     "site",
     "support"
@@ -175,7 +175,7 @@
 }, {
   "id": "recruitment-service",
   "active": true,
-  "date": 1567800000000,
+  "start": "2019-09-06",
   "categories": [
     "html"
   ],
@@ -193,7 +193,7 @@
 }, {
   "id": "rus63",
   "active": true,
-  "date": 1568577600000,
+  "start": "2019-09-15",
   "categories": [
     "html"
   ],
@@ -210,7 +210,7 @@
 }, {
   "id": "stekko",
   "active": true,
-  "date": 1573588800000,
+  "start": "2019-11-12",
   "categories": [
     "html"
   ],
@@ -229,7 +229,7 @@
 }, {
   "id": "get-finance",
   "active": true,
-  "date": 1573588800000,
+  "start": "2019-11-12",
   "categories": [
     "html"
   ],
@@ -247,7 +247,7 @@
 }, {
   "id": "patients-transfer",
   "active": true,
-  "date": 1575748800000,
+  "start": "2019-12-07",
   "categories": [
     "html"
   ],
@@ -265,7 +265,7 @@
 }, {
   "id": "warm-talks",
   "active": true,
-  "date": 1581624000000,
+  "start": "2020-02-13",
   "categories": [
     "html"
   ],
@@ -284,7 +284,7 @@
 }, {
   "id": "hundred-promo",
   "active": true,
-  "date": 1584820800000,
+  "start": "2020-03-21",
   "categories": [
     "html"
   ],
@@ -302,7 +302,7 @@
 }, {
   "id": "lunch-delivery",
   "active": true,
-  "date": 1586635200000,
+  "start": "2020-04-11",
   "categories": [
     "html"
   ],
@@ -320,7 +320,7 @@
 }, {
   "id": "boarding-houses",
   "active": true,
-  "date": 1592251200000,
+  "start": "2020-06-15",
   "categories": [
     "html"
   ],
@@ -339,7 +339,7 @@
 }, {
   "id": "kkz",
   "active": true,
-  "date": 1596398400000,
+  "start": "2020-08-02",
   "categories": [
     "html"
   ],
@@ -358,7 +358,7 @@
 }, {
   "id": "caring-houses",
   "active": true,
-  "date": 1607544000000,
+  "start": "2020-12-09",
   "categories": [
     "html"
   ],
@@ -377,7 +377,7 @@
 }, {
   "id": "zagorizont",
   "active": true,
-  "date": 1616270400000,
+  "start": "2021-03-20",
   "categories": [
     "html"
   ],
@@ -396,7 +396,7 @@
 }, {
   "id": "volga-coffee-fest",
   "active": true,
-  "date": 1623009600000,
+  "start": "2021-06-06",
   "categories": [
     "sites",
     "html"
@@ -415,7 +415,7 @@
 }, {
   "id": "ms-cleaner",
   "active": true,
-  "date": 1652212800000,
+  "start": "2022-05-10",
   "categories": [
     "open-source",
     "web"
@@ -434,7 +434,7 @@
 }, {
   "id": "gulp-project",
   "active": true,
-  "date": 1584907200000,
+  "start": "2020-03-22",
   "categories": [
     "open-source",
     "templates"
@@ -452,12 +452,11 @@
     "git"
   ],
   "logo": "https://github.com/digikid/gulp-project/raw/main/logo.svg",
-  "repo": "https://github.com/digikid/gulp-project",
-  "large": true
+  "repo": "https://github.com/digikid/gulp-project"
 }, {
   "id": "tiny-compressor",
   "active": true,
-  "date": 1656878400000,
+  "start": "2022-07-03",
   "categories": [
     "open-source",
     "cli"
@@ -473,7 +472,7 @@
 }, {
   "id": "icomoon-converter",
   "active": true,
-  "date": 1657224000000,
+  "start": "2022-07-07",
   "categories": [
     "open-source",
     "cli"
@@ -489,7 +488,7 @@
 }, {
   "id": "mosaic-coffee",
   "active": true,
-  "date": 1636488000000,
+  "start": "2021-11-09",
   "categories": [
     "spa"
   ],
@@ -507,7 +506,7 @@
 }, {
   "id": "dev.digikid.pro",
   "active": true,
-  "date": 1647201600000,
+  "start": "2022-03-13",
   "categories": [
     "spa"
   ],
@@ -526,7 +525,7 @@
 }, {
   "id": "vite-vue-project",
   "active": true,
-  "date": 1658606400000,
+  "start": "2022-07-23",
   "categories": [
     "open-source",
     "templates"
@@ -540,11 +539,12 @@
   ],
   "logo": "https://github.com/digikid/vite-vue-project/raw/main/logo.svg",
   "repo": "https://github.com/digikid/vite-vue-project",
-  "large": true
+  "large": true,
+  "className": "bg-pattern-bubbles-1"
 }, {
   "id": "create-gulp-project",
   "active": true,
-  "date": 1642795200000,
+  "start": "2022-01-21",
   "categories": [
     "open-source",
     "cli"
@@ -560,7 +560,7 @@
 }, {
   "id": "dom-element",
   "active": true,
-  "date": 1653163200000,
+  "start": "2022-05-21",
   "categories": [
     "open-source",
     "libs"
@@ -574,4 +574,23 @@
   ],
   "logo": "https://github.com/digikid/dom-element/raw/main/logo.svg",
   "repo": "https://github.com/digikid/dom-element"
+}, {
+  "id": "x24",
+  "active": true,
+  "start": "2022-11-27",
+  "categories": [
+    "team",
+    "support"
+  ],
+  "stack": [
+    "ts",
+    "vue",
+    "element-ui",
+    "webpack",
+    "git"
+  ],
+  "logo": "/images/projects/x24.svg",
+  "url": "https://x24.cloud/",
+  "large": true,
+  "className": "bg-pattern-waves-1"
 }]

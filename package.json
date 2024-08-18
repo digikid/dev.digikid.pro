@@ -1,8 +1,8 @@
 {
   "name": "dev.digikid.pro",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
-  "author": "Alexander Dovlatov <dev@digkid.ru> (https://dev.digikid.pro/)",
+  "author": "Alexander Dovlatov <dev@digkid.pro> (https://dev.digikid.pro/)",
   "scripts": {
     "dev": "vite --logLevel error",
     "build": "vue-tsc --noEmit && vite build",
@@ -13,6 +13,7 @@
     "@headlessui-float/vue": "^0.10.0",
     "@headlessui/vue": "^1.7.3",
     "@types/imagesloaded": "^4.1.2",
+    "date-fns": "^3.6.0",
     "imagesloaded": "^5.0.0",
     "muuri": "^0.9.5",
     "pinia": "^2.0.23",

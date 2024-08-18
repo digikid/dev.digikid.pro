@@ -511,7 +511,7 @@
   }, {
     "id": "gitexplorer",
     "title": "Git Explorer",
-    "text": "Find the right commands you need without digging through the web"
+    "text": "Find the right teams you need without digging through the web"
   }, {
     "id": "awwwards",
     "title": "Awwwards",
@@ -615,6 +615,7 @@
     "spa": "Single Page Applications",
     "sites": "CRM Websites",
     "support": "Site support",
+    "team": "Team development",
     "html": "HTML Coding",
     "open-source": "Open Source",
     "templates": "Templates",
@@ -863,7 +864,7 @@
   }, {
     "id": "tiny-compressor",
     "title": "Tiny Compressor",
-    "description": "A command line JPG, PNG and WebP images compressor using TinyPNG API"
+    "description": "A team line JPG, PNG and WebP images compressor using TinyPNG API"
   }, {
     "id": "icomoon-converter",
     "title": "Icomoon Converter",
@@ -888,6 +889,17 @@
     "id": "dev.digikid.pro",
     "title": "dev.digikid.pro",
     "description": "My personal portfolio page where you are now"
+  }, {
+    "id": "x24",
+    "title": "X24",
+    "description": "Cloud ERP production management system",
+    "details": [
+      "Team product development",
+      "Implementation of new functionality and technical support",
+      "Architectural decisions",
+      "Legacy code analysis",
+      "Refactoring"
+    ]
   }]
 }
 

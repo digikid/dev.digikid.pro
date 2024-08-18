@@ -15,7 +15,9 @@ export default {
     'z-[0]',
     'z-[1]',
     'z-[2]',
-    'z-[3]'
+    'z-[3]',
+    'bg-pattern-waves-1',
+    'bg-pattern-bubbles-1',
   ],
   theme: {
     screens: {
@@ -69,6 +71,11 @@ export default {
           'Inter var',
           ...defaultTheme.fontFamily.sans,
         ]
+      },
+      padding: {
+        '1/4': '25%',
+        '1/2': '50%',
+        full: '100%',
       },
     },
   },

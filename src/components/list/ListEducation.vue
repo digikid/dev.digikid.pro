@@ -30,10 +30,10 @@ const isMain = (item: EducationItem) => (item.id === 'main');
         class="education__wrapper"
       >
         <div
-          v-if="item.date"
+          v-if="item.start"
           class="education__date"
         >
-          {{ new Date(item.date).getFullYear() }}
+          {{ new Date(item.start).getFullYear() }}
         </div>
         <div class="education__header">
           <div

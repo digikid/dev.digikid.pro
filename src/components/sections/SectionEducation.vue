@@ -10,7 +10,7 @@ const { items: data } = useData<ExperienceData, ExperienceLocale>('education');
 
 const items = computed<EducationItem[]>(() => {
   const main = data.value.filter((item) => item.id === 'main');
-  const courses = data.value.filter((item) => item.id !== 'main').sort((a, b) => b.date - a.date);
+  const courses = data.value.filter((item) => item.id !== 'main').sort((a, b) => b.start - a.start);
 
   return [
     ...main,

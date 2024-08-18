@@ -20,12 +20,8 @@ const props = defineProps<{
     <div
       v-if="props.project.logo"
       class="projects__logo"
-    >
-      <img
-        :src="props.project.logo"
-        :alt="props.project.title"
-      >
-    </div>
+      :style="{ backgroundImage: `url(${props.project.logo})` }"
+    />
     <div class="projects__heading">
       <div
         v-if="props.project.title"
@@ -54,7 +50,7 @@ const props = defineProps<{
 
 <style>
 .projects__header {
-  @apply relative px-4 pt-4 pb-1 md:px-6 md:pt-4;
+  @apply relative px-4 pt-4 pb-3 md:px-6 md:pt-4;
 }
 
 .projects__header--large {
@@ -66,7 +62,7 @@ const props = defineProps<{
 }
 
 .projects__logo {
-  @apply w-full mx-auto mb-6 text-center mt-2 md:mt-0 md:w-1/4 md:ml-6 md:float-right;
+  @apply bg-no-repeat bg-contain bg-center md:bg-top w-full pb-1/4 mx-auto mb-6 text-center mt-2 md:mt-0 md:w-1/4 md:ml-6 md:float-right;
 }
 
 .projects__logo img {
@@ -74,7 +70,7 @@ const props = defineProps<{
 }
 
 .projects__header--large .projects__logo {
-  @apply md:w-full md:float-none md:mx-auto;
+  @apply md:bg-center md:bg-[length:80%_100%] md:w-full md:float-none md:mx-auto;
 }
 
 .projects__heading {}
@@ -85,5 +81,9 @@ const props = defineProps<{
 
 .projects__header--large .projects__title {
   @apply md:text-3xl;
+}
+
+.projects__header--large .projects__description {
+  @apply md:max-w-[80%] md:mx-auto;
 }
 </style>
