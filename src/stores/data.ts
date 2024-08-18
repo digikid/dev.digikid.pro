@@ -39,8 +39,6 @@ export const useDataStore = defineStore('data', {
             if (response.ok) {
               const { version } = await response.json();
 
-              console.log(id, repo, version);
-
               if (version) {
                 return ({
                   ...item,

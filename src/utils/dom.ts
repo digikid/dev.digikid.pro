@@ -27,9 +27,7 @@ export const loadScript = (scriptSrc: string) => new Promise((resolve, reject) =
 
     script.onload = resolve;
     script.onerror = reject;
-  } catch (e) {
-    console.log(e);
-  }
+  } catch (e) {}
 });
 
 export const updateMeta = (key: string, content = '') => {
