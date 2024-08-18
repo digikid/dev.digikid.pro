@@ -41,11 +41,5 @@ const className = computed(() => {
 
 .projects__item--large {
   @apply md:text-center;
-
-  .projects__logo {
-    img {
-      @apply w-[80%];
-    }
-  }
 }
 </style>

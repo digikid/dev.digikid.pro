@@ -73,6 +73,10 @@ const props = defineProps<{
   @apply md:bg-center md:bg-[length:80%_100%] md:w-full md:float-none md:mx-auto;
 }
 
+.projects__header--large .projects__logo img {
+  @apply w-[80%];
+}
+
 .projects__heading {}
 
 .projects__title {
